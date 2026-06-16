@@ -1,0 +1,326 @@
+%
+% $Log: graphs.tex,v $
+% Revision 1.5  2002/10/21 15:26:44  mjm
+% to ohio, revised
+%
+% Revision 1.4  2002/01/08 18:53:18  mjm
+% made pdf compatible
+%
+% Revision 1.3  2001/08/15 18:07:03  mjm
+% APPM preprint 466
+%
+% Revision 1.2  1999/08/09 19:55:27  mjm
+% beta release
+%
+% Revision 1.1  1999/06/10 23:30:48  mjm
+% Initial revision
+%
+%
+
+%\begin{probdescript}{Drawing Graphs}
+\handout{Graphs}
+
+Graphs are an important visual aid in mathematics and it is important to
+learn how to draw them properly.  For a graph to be useful it must display
+the important and interesting information about a function and have all
+relevant points clearly labeled.  
+
+When drawing graphs, it is helpful to
+ask yourself:
+\begin{itemize}
+\item Have I graphed what is being asked?  
+\item Have I put a title on the  graph and labeled the axes?  
+\item Is the scale I have chosen for my graph appropriate?
+\item Have I illustrated the important features?
+\item Have I included enough detail?
+%  For example, labels on extreme
+%  points, points of inflection, and $x$- and $y$-intercepts.
+\end{itemize}
+
+You can often determine how much detail to include in your graph from the
+question.  For example, if you are finding the extreme points of a
+function, then you will probably be expected to label these points on your
+graph.  If you are only sketching the graph of a function then less detail
+is required.  The main purpose of a sketch is to get some idea of the
+general shape and behavior of the function.  In this case, it is not
+usually necessary to label extreme points and intercepts.  However, you
+should always remember to label your axes and put a title on your graph,
+even if it is only a sketch.  Use a ruler if necessary to draw
+straight lines. If 
+you are drawing more than one curve on the same set of axes, take
+particular care to make sure that each curve is clearly labeled.
+
+%\end{probdescript}
+%\clearpage
+
+%\begin{probexamples}
+%\begin{examplelist}
+%\begin{example}
+
+%\noindent{\bf Examples:}
+\subsection*{Examples:}
+
+  Graph the curve $y= x^3 - 4x$.
+
+\begin{goodexample}
+
+\setlength{\unitlength}{1cm}
+\begin{center}
+The curve $y=x^3-4x$.\\
+\smallskip
+\begin{picture}(10,8)(-5,-4)
+
+% make axes
+
+\put(0,-4){\vector(0,1){8}}
+\put(-5,0){\vector(1,0){10}}
+\thinlines
+\multiput(-4,-0.1)(1,0){9}{\line(0,1){0.2}}
+
+\multiput(-0.1,-3.5)(0,0.5){15}{\line(1,0){0.2}}
+
+\put(5.2,0.2){$x$}
+\put(0.2,3.8){$y$}
+
+\put(-4.4,-0.4){$-4$}
+\put(-3.4,-0.4){$-3$}
+\put(-2.4,-0.4){$-2$}
+\put(-1.4,-0.4){$-1$}
+
+\put(0.9,-0.4){$1$}
+\put(1.9,-0.4){$2$}
+\put(2.9,-0.4){$3$}
+\put(3.9,-0.4){$4$}
+
+\put(-0.7,-2.6){$-5$}
+\put(-0.4,2.4){$5$}
+% add in the curve x^3+4x
+
+%% FAKE but looks same
+
+\qbezier(-2.6,-3.6)(-1.7,4.35)(0,0)
+\qbezier(0,0)(1.7,-4.35)(2.6,3.6)
+
+%\path(-2.6,-3.588)
+%(-2.5,-2.8125)
+%(-2.4,-2.112)
+%(-2.3,-1.4835)
+%(-2.2,-0.924)
+%(-2.1,-0.4305)
+%(-2,0)
+%(-1.9,0.3705)
+%(-1.8,0.684)
+%(-1.7,0.9435)
+%(-1.6,1.152)
+%(-1.5,1.3125)
+%(-1.4,1.428)
+%(-1.3,1.5015)
+%(-1.2,1.536)
+%(-1.1,1.5345)
+%(-1,1.5)
+%(-0.9,1.4355)
+%(-0.8,1.344)
+%(-0.7,1.2285)
+%(-0.6,1.092)
+%(-0.5,0.9375)
+%(-0.4,0.768)
+%(-0.3,0.5865)
+%(-0.2,0.396)
+%(-0.1,0.1995)
+%(0,0)
+%(0.1,-0.1995)
+%(0.2,-0.396)
+%(0.3,-0.5865)
+%(0.4,-0.768)
+%(0.5,-0.9375)
+%(0.6,-1.092)
+%(0.7,-1.2285)
+%(0.8,-1.344)
+%(0.9,-1.4355)
+%(1,-1.5)
+%(1.1,-1.5345)
+%(1.2,-1.536)
+%(1.3,-1.5015)
+%(1.4,-1.428)
+%(1.5,-1.3125)
+%(1.6,-1.152)
+%(1.7,-0.9435)
+%(1.8,-0.684)
+%(1.9,-0.3705)
+%(2,0)
+%(2.1,0.4305)
+%(2.2,0.924)
+%(2.3,1.4835)
+%(2.4,2.112)
+%(2.5,2.8125)
+%(2.6,3.588)
+
+% add the labels
+
+%\put(-2,0){\circle*{0.1}}
+\put(-2.08,-0.08){\mbox{$\bullet$}}
+\put(-3.2,0.3){$(-2,0)$}
+
+%\put(-1.1,1.5396){\circle*{0.1}}
+\put(-1.18,1.45){\mbox{$\bullet$}}
+\put(-2.5,2){$(\frac{-2}{\sqrt{3}}, \frac{16}{3\sqrt{3}})$}
+
+
+%\put(0,0){\circle*{0.1}}
+\put(-0.08,-0.08){\mbox{$\bullet$}}
+\put(0.1,0.5){$(0,0)$}
+
+%\put(1.1,-1.5396){\circle*{0.1}}
+\put(1.02,-1.62){\mbox{$\bullet$}}
+\put(0.5,-2){$(\frac{2}{\sqrt{3}}, \frac{-16}{3\sqrt{3}})$}
+
+%\put(2,0){\circle*{0.1}}
+\put(1.92,-0.08){\mbox{$\bullet$}}
+\put(2.4,0.5){$(2,0)$}
+
+
+
+\end{picture}
+\end{center}
+\noindent\fbox{\parbox{\textwidth}{\rm The curve,
+axes, extreme points, and $x$- and $y$-intercepts are clearly labeled.
+These are the `points of interest' for this function.}}
+
+\end{goodexample}
+
+\secondpage
+
+\begin{badexample}
+
+\setlength{\unitlength}{0.7cm}
+\begin{center}
+\begin{picture}(10,8)(-5,-4)
+
+% make axes
+
+\put(0,-4){\vector(0,1){8}}
+\put(-5,0){\vector(1,0){10}}
+\thinlines
+\multiput(-4,-0.1)(1,0){9}{\line(0,1){0.2}}
+
+%\multiput(-0.1,-3.5)(0,0.5){15}{\line(1,0){0.2}}
+
+\put(5.2,0.2){$x$}
+\put(0.2,3.8){$y$}
+
+\put(-4.4,-0.4){$-4$}
+\put(-3.4,-0.4){$-3$}
+\put(-2.4,-0.4){$-2$}
+\put(-1.4,-0.4){$-1$}
+
+\put(0.9,-0.4){$1$}
+\put(1.9,-0.4){$2$}
+\put(2.9,-0.4){$3$}
+\put(3.9,-0.4){$4$}
+
+% add in the curve x^3+4x
+
+% FAKE 
+\qbezier(-2.6,-3.6)(-1.7,4.35)(0,0)
+\qbezier(0,0)(1.7,-4.35)(2.6,3.6)
+
+\end{picture}
+\end{center}
+
+
+\noindent\fbox{\parbox{\textwidth}{\rm 
+Although this second solution has labeled axes, the graph has no title
+so it is not clear to someone else what they are viewing.  There are
+also no labels on the extreme points or intercepts and no scale is given
+on the $y$-axis.  Although this is a bad example of a solution to this
+question it  would be  sufficient if only a rough sketch
+was required.
+}}
+\end{badexample}
+
+
+Choose a suitable scale so that all of the interesting features of the
+graph are included.  For example, when graphing our function
+\begin{displaymath}
+  y= x^3 - 4x
+\end{displaymath}
+a suitable scale meant including all of the extreme points and $x$- and
+$y$-intercepts.  
+Be especially careful about the scale when using a graphing calculator or
+computer. They do not have any idea which points are interesting, so they
+will often give inappropriate scales.
+The following graphs
+give examples of bad choices of scale for our problem. 
+
+\begin{badexample}
+
+
+\setlength{\unitlength}{0.55cm}
+
+\begin{center}
+\begin{picture}(10,8)(-5,-4)
+% make axes
+\put(0,-4){\vector(0,1){8}}
+\put(-5,0){\vector(1,0){10}}
+\thinlines
+%\multiput(-4,-0.1)(1,0){9}{\line(0,1){0.2}}
+%\multiput(-0.1,-3.5)(0,0.5){15}{\line(1,0){0.2}}
+\put(5.2,0.2){$x$}
+\put(0.2,3.8){$y$}
+
+\put(-4.6,-0.6){$-40$}
+\put(3.9,-0.6){$40$}
+\put(-2,3){$60000$}
+\put(-2.5,-4){$-60000$}
+
+\qbezier(-5,-4)(-3,0)(0,0)
+\qbezier(5,4)(3,0)(0,0)
+
+\end{picture}
+%%%%%%
+\hfill
+%%%%%%
+\begin{picture}(10,8)(-5,-4)
+
+\qbezier(-5,4)(-3,3.5)(0,0)
+\qbezier(5,-4)(3,-3.5)(0,0)
+
+% make axes
+
+\put(0,-4){\vector(0,1){8}}
+\put(-5,0){\vector(1,0){10}}
+\thinlines
+
+\put(5.2,0.2){$x$}
+\put(0.2,3.8){$y$}
+
+\put(-4.4,-0.6){$-1$}
+\put(3.9,-0.6){$1$}
+
+\put(-1,3){$1$}
+\put(-1.5,-4){$-1$}
+
+\end{picture}
+
+\end{center}
+
+
+\noindent\fbox{\parbox{\textwidth}{\rm 
+The graph on the left uses
+too large a scale so the extreme points are hard to see and will be
+difficult to label.  The scale used for the graph on the right is too 
+small as it fails to include two of the $x$-intercepts.
+}}
+\end{badexample}
+
+Also make sure that what you are graphing makes sense.  If you are drawing
+the graph of a function that represents the distance of a space shuttle
+from the surface of the earth against time, it makes no sense to include
+negative distances, as this is unphysical.  Similar reasoning applies to
+graphs representing populations, areas, and volumes.
+
+Finally, being able to draw and sketch graphs well can sometimes help
+while trying to answer a question, even if a graph is not required in the
+solution.  For more difficult problems in particular, being able to sketch
+a function to identify its behavior often provides more insight than
+looking at the equation alone.

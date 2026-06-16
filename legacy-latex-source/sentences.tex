@@ -1,0 +1,232 @@
+%
+% $Log: sentences.tex,v $
+% Revision 1.4  2002/10/21 15:26:44  mjm
+% to ohio, revised
+%
+% Revision 1.3  2001/08/15 18:07:03  mjm
+% APPM preprint 466
+%
+% Revision 1.2  1999/08/09 19:55:27  mjm
+% beta release
+%
+% Revision 1.1  1999/06/10 23:34:48  mjm
+% Initial revision
+%
+%
+
+\handout{Flow}
+       
+Written mathematics must be readable. This may seem trivial, but it is
+an important point. You should be able to read your work aloud to a
+classmate and have them understand your solution. If you need to add
+any explanations, these should be included in your written work.
+The most common mistake is to write mathematics without using enough
+words. All writing, even mathematics, should consist of complete sentences.
+These should explain the problem by providing both the method and 
+justification for each  step of the solution.
+
+
+\begin{flushleft}
+{\bf{Why are sentences important in mathematics?}}
+\end{flushleft}
+
+  Although sometimes it seems hard to read textbooks, it would be
+much harder to understand if they only had equations and no sentences.
+The situation is similar in lecture: if the professor just listed
+formulas on the chalkboard without talking about them, leaving you to
+figure out what was being done in each step, how much could you
+understand from the lecture?  Neither of these would be a good way for
+most students to learn, since sentences are necessary to explain the
+mathematics.
+
+\begin{flushleft}
+  \bf{Why should students use sentences in a Mathematics class?}
+\end{flushleft}
+
+In a Mathematics class, you should explain homework solutions using complete
+sentences.  That means linking together thoughts with words and
+embedding equations into sentences.  Going through the extra work to
+do this will benefit you in several ways:
+
+\begin{itemize}
+\item Writing down your thoughts and organizing them into complete
+  sentences will help you to understand the method of solution better.
+  
+\item When you look back on homework to study for a test, or later on
+  in another class, you will understand what you
+  were doing on each problem and the mathematics behind it.
+  
+\item Other people (teacher, classmates, grader,...) will understand
+  what you are doing at each step, and why you are doing it.  This
+  way, you won't lose points for skipping steps or solving the problem
+  in an unusual way.
+  
+\item Communicating your work will be essential in whatever field you choose.
+  Even though the fields are stereotypically weak on
+  writing, engineers and scientists spend a surprising amount of time
+  writing reports and giving oral presentations.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection*{The Royal ``We''.}
+
+It is customary to write mathematics using ``we'' instead of ``I'' and
+``you''. Think of yourself as the tour guide, showing the sights to
+your reader. You and the reader together make ``we''.
+
+
+\subsubsection*{Your Audience}
+Keep in mind who your audience is. For the Good Problems, pretend that
+you are writing for a classmate who has not seen this problem
+before. Write with enough detail so that they can follow your
+explanations.  A good way to test if you have written enough is to read
+your work aloud to another person. If you need to add any words to
+make it make sense, then these words should be included in your
+written work.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\secondpage
+\subsection*{{Examples:}}
+
+\begin{itemize}
+
+%\noindent{\bf How to put an equation into a sentence:}
+%\subsubsection*{How to put an equation into a sentence:}
+%
+%\begin{goodexample}
+%    The derivative of the curve $y= 3\sqrt{x}$ is $\frac{dy}{dx} =
+%    \frac{3}{2 \sqrt{x}}$.
+%\end{goodexample}  
+%    
+%\begin{badexample}
+%  The derivative $\frac{dy}{dx}$ is $\frac{3}{2 \sqrt{x}}$ for the
+%  curve $y$ which is $3 \sqrt{x}$.
+%\end{badexample}
+%    
+%\begin{badexample}
+%  $\frac{dy}{dx}$ is the derivative of $3 \sqrt{x}$ which is
+%  $\frac{3}{2 \sqrt{x}}$.
+%\end{badexample}
+
+
+
+%\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsubsection*{Using sentences incorrectly:}
+
+\item  
+Find an equation for the tangent to the curve $y = x + \frac{2}{x} $
+at the point $(1,3)$.
+ 
+%\begin{badexample}
+%
+%  \begin{displaymath}
+%    \frac{dy}{dx} = 1 - \frac{2}{x^2}
+%  \end{displaymath}
+%                                %
+%  so the equation for the derivative is
+  %
+%  \begin{displaymath}
+%    \frac{dy}{dx}= -1 = m
+%  \end{displaymath}
+%                                %
+%  so the slope at $(x,y)$ can be found by $y-3 = -1 (x-1)$ so $y=-x +
+%  4$ is the point-slope equation.
+%\end{badexample}
+  
+
+\begin{goodexample}
+  
+We first check that $(1,3)$ is a point on the curve by plugging these
+values in: $3=1+2/1$. 
+  The derivative of the curve $y = x + \frac{2}{x}$ is
+%  \begin{displaymath}
+\begin{equation}
+    \frac{dy}{dx} = 1 - \frac{2}{x^2}.
+%\label{eqn:refexample}
+\end{equation}
+%  \end{displaymath}
+  A line tangent to the curve at the point $(1,3)$ will have slope
+  \begin{displaymath}
+    \left. \frac{dy}{dx} \right| _{x=1} = 1 - \frac{2}{(-1)^2} = -1.
+  \end{displaymath}
+  Using the point-slope formula with $m = -1$, $x_0 = 1$, and $y_0 = 3$ gives
+  the formula for the line $y - 3 = -1(x-1)$.  Solving for y and
+  simplifying gives
+  \begin{displaymath}
+    y = -x + 4.
+  \end{displaymath}
+  This is the equation of the line tangent to the curve at that point.
+\end{goodexample}  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsubsection*{Vague and uninformative sentences}
+    
+\item
+\begin{badexample}
+      We use calculus to find that $y = 3x^2+1$ has a slope of $3$ at
+      $x = 1/2$.
+\end{badexample}
+
+\begin{goodexample}
+    To find the slope of the curve $y = 3x^2+1$ at the point $x = 1/2$
+    we find $\frac{dy}{dx}$ evaluated at $x = 1/2$. We compute
+    \begin{eqnarray*}
+      \frac{dy}{dx} &  = &  6x,  \\  
+      \Rightarrow \left. \frac{dy}{dx} \right| _{x=1/2} & = & 6 \left( \frac{1}{2}
+      \right) = 3. 
+    \end{eqnarray*}
+\end{goodexample}
+
+\item
+                 %not sure if this is a good example of
+                 %not, seems a little contrived 
+\begin{badexample}
+    \begin{eqnarray*}
+      \frac{d}{dx}\left( (x^2 + 1) (x^3 +3) \right) &  = & 
+      (x^2+1)3x^2 +(x^3+3)2x \\ 
+      &  = & 5x^4+3x^2+6x
+    \end{eqnarray*}
+    is the derivative.
+\end{badexample}
+    
+\begin{goodexample}
+    To take the derivative of a product of $2$ functions, we use the
+    product rule, $(fg)'=f'g+fg'$.
+In our case we have
+    \begin{eqnarray*}
+      \frac{d}{dx}\left( (x^2 + 1) (x^3 +3) \right) &  = & 
+      \left(\frac{d}{dx} (x^2 + 1) \right) (x^3 +3)
+	+(x^2 + 1) \left(\frac{d}{dx} (x^3 +3)\right)\\
+	& =& (2x)(x^3+3) +(x^2 + 1)(3x^2)\\
+      &  = & 5x^4+3x^2+6x.
+    \end{eqnarray*}
+\end{goodexample}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsubsection*{Referring to previous equations and figures.}
+\item
+You may have noticed that one of the equations above has been labeled
+equation number one by putting ``(1)'' at the right hand
+margin. If you need to refer back to an equation or figure, label it
+and then refer to it by its label. Do not draw arrows.
+
+\begin{badexample}
+Using the equation from before, the slope is $-1$. \fbox{\rm Which equation?}
+\end{badexample}
+
+\begin{goodexample}
+Using (1), the derivative at $x=1$ is $-1$.
+\end{goodexample}
+\end{itemize}
+
+%\marginpar{conclusion.}
+
+
+
+
+
+

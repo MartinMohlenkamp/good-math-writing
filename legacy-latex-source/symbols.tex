@@ -1,0 +1,264 @@
+%
+% $Log: symbols.tex,v $
+% Revision 1.5  2002/10/21 15:26:44  mjm
+% to ohio, revised
+%
+% Revision 1.4  2002/01/08 18:54:53  mjm
+% reworked table
+%
+% Revision 1.3  2001/08/15 18:07:03  mjm
+% APPM preprint 466
+%
+% Revision 1.2  1999/08/09 19:55:27  mjm
+% beta release
+%
+% Revision 1.1  1999/06/10 23:29:28  mjm
+% Initial revision
+%
+%
+
+
+%\begin{probdescript}{Using Mathematical Symbols}
+\handout{Mathematical Symbols}
+
+
+You will encounter many mathematical symbols during your math courses.
+The table below provides you with a list  of the more common
+symbols, how to read them, and notes on their meaning and usage.
+The following page has a series of examples of these symbols in use.
+
+\vfill
+
+\renewcommand{\arraystretch}{1.2}
+\noindent
+%\begin{tabular}{|l|p{1.75in}|p{3.5in}|}\hline
+\begin{tabular}{|p{0.8in}|p{1.6in}|p{3.15in}|}\hline
+  {\bf Symbol} & {\bf How to read it} & {\bf Notes on meaning and usage} \\
+  \hline
+                                %
+$ a=b $ &$a$ equals $b$& $a$ and $b$ have exactly the same value.  \\ \hline 
+                                %
+$a \approx b$ or \mbox{$a\cong b$} 
+		& $a$ is approximately equal to $b$
+			& Do not write $=$ when you mean $\approx$.\\ \hline
+                                %
+$ P\Rightarrow Q$ & $P$ implies $Q$ 
+			&  If $P$ is true, then $Q$ is also true.\\ \hline
+                                %
+$ P\Leftarrow Q$ & $P$ is implied by $Q$ 
+			&  If $Q$ is true, then $P$ is also true.\\ \hline
+                                %
+$ P\Leftrightarrow Q$ or $P$~iff~$Q$
+		& $P$ is equivalent to $Q$ or $P$~if~and~only~if~$Q$
+			& $P$ and $Q$ imply each other. \\ \hline 
+                                %
+$ (a,b)$ & the point $a$ $b$ 
+		& A coordinate in $\mathbb{R}^2$.  \\ \hline
+                                %
+$ (a,b)$ & the open interval from $a$ to $b$ &
+  	The values between $a$ and $b$, but
+  	not including the endpoints.  \\ \hline
+                                %
+$ [a,b]$ & the closed interval from $a$ to $b$ &
+  	The values between $a$ and $b$, including the endpoints.  \\ \hline 
+                                %
+$ (a,b]$ & The (half-open) interval from $a$ to $b$ excluding $a$, and
+  	including $b$. 
+		&The values between $a$ and $b$, excluding $a$,
+		 and including $b$. Similar for $ [a,b)$. \\ \hline
+                                %
+
+$ \mathbb{R} $ or ${\bf R}$ & the real numbers 
+		&It can also be used for the plane as $\mathbb{R}^2$, and
+  		in higher dimensions. \\ \hline
+                                %
+$ \mathbb{C} $ or ${\bf C}$ & the complex numbers 
+		& $\{a+bi: a,b\in \mathbb{R} \}$, where $i^2=-1$. \\ \hline
+                                %
+$ \mathbb{Z} $ or ${\bf Z}$ & the integers 
+		& \ldots,$-2$,$-1$,0,1,2,3, \ldots. \\ \hline
+                                %
+$ \mathbb{N} $ or ${\bf N}$ & the natural numbers 
+		&  $1,2,3,4, \ldots$. \\ \hline
+                                %
+$ a\in B$ & $a$ is an element of $B$
+		& The variable $a$ lies in the set  (of values) $B$. \\ \hline
+                                %
+$a\notin B$ & $a$ is not an element of $B$ & \\ \hline
+                                %
+$A \cup B$ & $A$ union $B$
+		& The set of all points that fall in $A$ or $B$.\\ \hline
+                                %
+$A \cap B$ & $A$ intersection $B$
+		&The set of all points that fall in both $A$ and $B$.\\ \hline
+                                %
+$A \subset B$ & $A$ is a subset of $B$ or $A$~is~contained~in~$B$
+	&Any element of $A$ is also an element of $B$.\\ \hline
+				%
+$ \forall x$ & for all $x$& Something is true for all (any) value of $x$
+	(usually with a side condition like $ \forall x>0$).  \\ \hline
+                                %
+$\exists$   &  there exists  
+		&Used in proofs and definitions as a shorthand. \\ \hline
+                                %
+$\exists!$  & there exists a unique 
+		&Used in proofs and definitions as a shorthand.\\ \hline
+                                %
+$ f\circ g$ & $f$ composed with $g$ or $f$~of~$g$
+			& Denotes $f(g(\cdot))$. \\ \hline
+                                %
+$n!$ & $n$ factorial & $n!=n(n-1)(n-2)\cdots \times 2 \times 1$. \\ \hline
+                                %
+$ \lfloor x \rfloor$ &the floor of $x$ 
+		& The nearest integer $\le x$. \\ \hline
+                                %
+$ \lceil x \rceil$ &the ceiling of $x$ 
+		& The nearest integer $\ge x$. \\ \hline
+                                %
+$f={\cal O}(g)$ or $f=O(g)$	& $f$ is big oh of $g$
+		& $\lim_{x\rightarrow\infty}\sup_{y>x} |f(y)/g(y)|<\infty$. 
+		Sometimes the limit is toward $0$ or another point.
+					\\ \hline
+				%
+$f=o(g)$	& $f$ is little oh of $g$
+		& $\lim_{x\rightarrow\infty}\sup_{y>x} |f(y)/g(y)|=0$.
+					\\ \hline
+				%
+$x\rightarrow a^+$	& $x$ goes to $a$ from the right
+		& $x$ is approaching $a$, but $x$ is always greater than $a$.
+			Similar for $x\rightarrow a^-$.\\ \hline
+\end{tabular}
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\secondpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{The Trouble with $=$}
+The most commonly used, and most commonly misused, symbol is
+`$=$'. The `$=$' symbol means that the things on either side are
+actually the same, just written a different way. The common misuse of
+`$=$' is to mean 'do something'. For example, when asked to compute
+$(3+5)/2$, some people will write:\\
+\begin{badexample}
+\[
+3+5=8/2=4.
+\]
+\end{badexample}\\
+This claims that $3+5=4$, which is false. We can fix this by carrying
+the `$/2$' along, as in $(3+5)/2=8/2=4$. We could instead use the
+'$\Rightarrow$' symbol, meaning 'implies', and turn it into a logical
+statement: \\
+\begin{goodexample}
+\[
+3+5=8\quad \Rightarrow \quad (3+5)/2=4.
+\]
+\end{goodexample}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{To Symbol or not to Symbol?}
+
+\begin{badexample}
+$\lim_{x \rightarrow x_0} f(x)=L$ means that $\forall \epsilon >0$,
+$\exists \delta >0$ s.t. $\forall x$,
+\[
+0 < |x -x_0|< \delta\quad  \Rightarrow\quad |f(x)-L|<\epsilon.
+\]
+\end{badexample}\\
+Although this statement is correct mathematically, it is difficult to
+read (unless you are well-versed in math-speak).  This example shows
+that although you can write math in all symbols as a shortcut, often
+it is clearer to use words. A compromise is often preferred.\\
+\begin{goodexample}\\
+{\bf The Formal Definition of Limit:}
+Let $f(x)$ be defined on an open interval about $x_0$, except possibly
+at $x_0$ itself. We say that $f(x)$ approaches the limit $L$ as $x$
+approaches $x_0$, and we write
+\[
+\lim_{x \rightarrow x_0} f(x)=L
+\]
+if for every number $\epsilon>0$, there exists a corresponding number
+$\delta>0$ such that for all $x$ we have
+\[
+0 < |x -x_0|< \delta \Longrightarrow |f(x)-L|<\epsilon.
+\]
+\end{goodexample}%\\
+%The last statement says $0<|x -x_0|< \delta$ implies
+%$|f(x)-L|<\epsilon$ is true.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Other Examples}
+
+The `$\Rightarrow$' symbol should be used even when doing simple algebra.\\
+\begin{goodexample}
+\[
+(y-0)=2(x-1) \quad \Longrightarrow \quad y=2x-2
+\]    
+\end{goodexample}
+
+You will be more comfortable with symbols, and better able to use them,
+if you connect them with their spoken form and their meaning.\\
+\begin{goodexample}
+The mathematical notation $(f \circ g)(x)$ is read ``$f$ composed with
+$g$ at the point $x$'' or ``$f$ of $g$ of $x$'' and means
+\[
+%        (f \circ g)(x) \quad \Leftrightarrow \quad 
+f(g(x)).
+\]
+\end{goodexample}
+    
+%    \begin{example}{\bf Using $\Leftrightarrow$}\\
+%      For sets of numbers on the real number line the following
+%      two columns are equivalent:
+%      \begin{eqnarray*}
+%        x \in (a,b) &\Leftrightarrow & a < x < b \\
+%        x \in [a,b] &\Leftrightarrow & a \leq x \leq b \\
+%        x \in [a,b) &\Leftrightarrow & a \leq x < b \\
+%        x \in (a,b] &\Leftrightarrow & a < x \leq b \\
+%      \end{eqnarray*}
+      
+%    \end{example}    
+                                % Example #3
+    % example #4
+
+%    \begin{example}
+%      {\bf Theorem:  One-sided vs. Two-sided Limits}
+%      
+%      \nopagebreak
+%      
+%      A function $f(x)$ has a limit as $x$ approaches $c$ if and only
+%      if it has left-hand and right-hand limits and they are equal:
+%                                %
+%      \begin{displaymath}
+%        \begin{aligned}
+%          \lim_{x\rightarrow c} f(x)  = L \quad \Leftrightarrow & \quad
+%          \lim_{x\rightarrow c^{-}} f(x)= L \quad \text{and} \\
+%          ~&\quad \lim_{x\rightarrow c^{+}} f(x)= L.
+%        \end{aligned}
+%      \end{displaymath}
+%      
+%      \begin{displaymath}
+%           \lim_{x\rightarrow c} f(x)  = L \quad \Leftrightarrow  \quad
+%          \text{both} \lim_{x\rightarrow c^{-}} f(x)= L \quad \text{and} 
+%          \quad \lim_{x\rightarrow c^{+}} f(x)= L.
+%       \end{displaymath}
+%      
+%      
+%\noindent\fbox{\parbox{\textwidth}{\rm      
+%        The above says that the statement to the left of the
+%        $\Leftrightarrow$ is equivalent to the statement on the right
+%        hand side.  
+%        
+%        Another way to look at this is that the statement on the left
+%        implies the statement on the right, and conversely, the
+%        statement on the right implies the statement on the left.
+%}}
+%    \end{example}
+      
+    % Example #5
+  
+    % Example #6
+%
+%
+    
+%  \end{examplelist}
+

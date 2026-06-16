@@ -1,0 +1,161 @@
+%
+% $Log: logicalcon.tex,v $
+% Revision 1.4  2002/10/21 15:26:44  mjm
+% to ohio, revised
+%
+% Revision 1.3  2001/08/15 18:07:03  mjm
+% APPM preprint 466
+%
+% Revision 1.2  1999/08/09 19:57:38  mjm
+% beta release
+%
+%
+
+% Notes:
+% 1. should we include inverse?
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\handout{Logical Connectives}
+
+%% reset equation counter
+\setcounter{equation}{0}
+
+Mathematics has its own language.  As with any language, effective
+communication depends on logically connecting components.  Even the
+simplest ``real" mathematical problems require at least a small amount
+of reasoning, so it is very important that you develop a feeling for
+{\em formal (mathematical) logic}.
+
+Consider, for example, the two sentences ``There are 10 people waiting
+for the bus" and ``The bus
+is late."  What, if anything, is the logical connection between these two
+sentences?  Does one {\em logically imply} the other?
+Similarly, the two mathematical statements ``$r^2 + r - 2 = 0$" and
+``$r=1$ or $r=-2$" need to be connected, otherwise they are merely two
+random statements that convey no useful information.
+  Warning: when
+mathematicians talk about implication, it means that one thing {\bf must}
+be true as a consequence of another; not that it can be true, or
+might be true sometimes.  
+
+Words and symbols that tie statements together logically are called
+{\em logical connectives}.  They allow you to communicate the reasoning
+that has led you to your conclusion.  Possibly the most important of
+these is {\em implication} --- the idea that the next statement is a
+logical consequence of the previous one.  This concept can be conveyed by
+the use of words such as: therefore, hence, and so, thus, since, if $\dots$
+then $\dots$, this implies, etc.  In the middle of mathematical calculations, we
+can represent these by the implication symbol ($\Rightarrow$).
+   For example
+\begin{eqnarray}
+x + 7y^2 = 3 & \Rightarrow & y = \pm \sqrt{\frac{3-x}{7}} \, ; \label{first} \\
+x \in (0,\infty) & \Rightarrow & \cos(x) \in [-1,1]. \label{second}
+\end{eqnarray}
+
+\subsubsection*{Converse}
+Note that ``statement A $\Rightarrow$ statement B" does {\bf not}
+necessarily mean that the {\em logical converse} --- ``statement B
+$\Rightarrow$ statement A" --- is also true.  Logical implication is a
+matter of cause and effect; the logical converse is simply the reverse
+cause-effect situation (which may not be true).
+Consider the following, everyday example:
+\begin{itemize}
+\item ``I am running to class because I am late."
+\end{itemize}
+It should be clear that the logical converse of these is not true:
+\begin{itemize}
+\item ``I am late to class because I am running."
+\end{itemize}
+
+For examples (\ref{first}) and (\ref{second}) above:
+\begin{eqnarray*}
+x + 7y^2 = 3 & \Leftarrow & y = \pm \sqrt{\frac{3-x}{7}} \, ; \\
+x \in (0,\infty) & \not\Leftarrow & \cos(x) \in [-1,1]. \quad
+	\fbox{Since $x<0 \Rightarrow \cos(x) \in [-1,1]$ also.}
+\end{eqnarray*}
+
+
+\subsubsection*{Contrapositive}
+We have seen that simply reversing a logical statement can lead to problems.
+There is a way, however, to invert an implication so that the inverted
+statement is also true.  This is known as the {\em contrapositive}.
+Consider the statement ``$A \Rightarrow B$"; this means ``if $A$ is
+true, then $B$ is true".  The contrapositive is ``if $B$ is {\bf false},
+then $A$ must be false".  
+%Recall our earlier example: a power outage causes
+%everyone's TV to turn off.  If someone's TV is on ({\em i.e.} it is not
+%true that everyone's TV is off), then there cannot be a power outage.
+
+Here is an example of how these concepts fit together:
+\begin{itemize}
+\item If X is a cat, it is an animal.  \fbox{Accept as true}
+\item If X is an animal, it is a cat.  \fbox{FALSE (converse)}
+\item If X is not an animal, it is not a cat.  \fbox{TRUE (contrapositive)}
+\item If X is not a cat, it is not an animal.\\
+	  \fbox{FALSE. This is the
+      contrapositive of the second statement, which is false.}
+\end{itemize}
+
+\secondpage
+
+
+\subsubsection*{Equivalence}
+When the implication works both ways, we say that the two statements
+are {\em equivalent} and we may use the equivalence symbol
+($\Leftrightarrow$); in words we may say ``A is equivalent to B" or
+``A if and only if B".  If two statements are equivalent, we may use
+any of the implication symbols ($\Rightarrow$, $\Leftarrow$, or
+$\Leftrightarrow$).  Which connective we use depends on what we are
+trying to show.  In (\ref{first}) above, if we are trying to obtain a
+formula for $y$, we would probably just use ``$\Rightarrow$", even
+though the stronger statement (``$\Leftrightarrow$") is also true.
+If, however, we wanted to show that two statements about $x$ and $y$
+were equivalent, we would write $x + 7y^2 = 3
+\Leftrightarrow y = \pm \sqrt{\frac{3-x}{7}}$.
+
+
+Careful logic is the heart and soul of mathematics; learn to reason with
+watertight arguments and use logical connectives to explain your reasoning
+processes.
+
+\subsubsection*{Example:}
+
+{\em What is the greatest amount of water that a right-cylindrical water tank
+can hold if there is $100 m^2$ of material from which to construct it?}
+
+\begin{goodexample}
+Let the height of the tank be $h$ and the radius be $r$.  \underline{Then}
+the volume of the tank is $V(h,r) = \pi hr^2$ and the surface area is
+$S(h,r) = 2\pi r^2 + 2\pi rh = 2\pi r(r+h)$.  \underline{Since} we require
+$V > 0$, we can assume that $r,h > 0$.  \underline{If} we have $100 m^2$
+of material, \underline{then} $S = 100$, \underline{and so}
+\begin{eqnarray*}
+S & = & 2\pi r(r+h) = 100 \\
+ & \Rightarrow & r + h = \frac{100}{2\pi r} \\
+ & \Rightarrow & h = \frac{50}{\pi r} - r \\
+ & \Rightarrow & V = \pi hr^2 = 50r - \pi r^3.
+\end{eqnarray*}
+To find the maximum volume, we look for $r$ such that $\frac{dV}{dr} = 0$.
+Differentiating with respect to $r$ gives $\frac{dV}{dr} = 50 - 3\pi r^2$.
+\underline{Hence},
+\begin{eqnarray*}
+\frac{dV}{dr} = 0 & \Leftrightarrow & 50 - 3\pi r^2 = 0 \\
+    & \Leftrightarrow & r^2 = \frac{50}{3\pi} \\
+    & \Leftrightarrow & r = \pm \sqrt{\frac{50}{3\pi}}.
+\end{eqnarray*}
+\underline{Since} $r>0$, we can use the second derivative test and find 
+$\frac{d^2V}{dr^2} = -6\pi r <0$. 
+\underline{This implies} that  $r = \sqrt{\frac{50}{3\pi}} \approx 2.3033$
+maximizes $V$.
+From above, the optimal volume is
+\begin{eqnarray*}
+V & = & 50r - \pi r^3 \\
+  & = & \left( 50 - \pi \left( \frac{50}{3\pi} \right) \right) \sqrt{\frac{50}{3\pi}} \\
+  & = & \left( \frac{100}{3} \right) \sqrt{\frac{50}{3\pi}} \approx 76.7765.
+\end{eqnarray*}
+\underline{Thus} we have found that the greatest amount of water such a tank
+can hold is (approximately) $76.7765 m^3$.
+\end{goodexample}
+
+
+

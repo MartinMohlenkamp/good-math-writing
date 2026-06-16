@@ -1,0 +1,211 @@
+%
+% $Log: goodproblem.tex,v $
+% Revision 1.7  2002/10/21 15:26:44  mjm
+% to ohio, revised
+%
+% Revision 1.6  2002/01/08 18:58:40  mjm
+% changed fonts
+%
+% Revision 1.5  2001/08/15 18:07:03  mjm
+% APPM preprint 466
+%
+% Revision 1.4  1999/08/09 19:55:27  mjm
+% beta release
+%
+% Revision 1.3  1999/04/17 21:33:11  mjm
+% Kristian comments
+%
+% Revision 1.2  1999/04/06 19:22:02  mjm
+% Ellens comments
+%
+% Revision 1.1  1999/03/17 00:21:00  mjm
+% good problems
+%
+%
+
+\documentclass{article}
+
+\usepackage{amsmath,amsxtra,amssymb,epsfig,eepic} 
+%\pagesize{usletter} 
+\newlength{\originalbase}
+\setlength{\originalbase}{\baselineskip}
+\newcommand{\spacing}[1]{\setlength{\baselineskip}{#1\originalbase}}
+%% the spacing command allows doublespacing etc.  Since there is
+%% already some extra space built in, we don't call it with argument
+%% 2 for doublespacing, but instead by the following chart:
+%%      10pt type       \spacing{1.67}
+%%      11pt type       \spacing{1.62}
+%%      12pt type       \spacing{1.66}
+%% To return to normal spacing, use     \spacing{1}
+ 
+ 
+%%%% stretches the rows in arrays. 1.67 gives doublespace%%%%%%%%%
+\renewcommand{\arraystretch}{1.1}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% puts section headings and page number at the top. not required %%%%%%
+%\pagestyle{headings}
+%% if you do NOT use \pagestyle{headings} set to 0in
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+
+
+%%%%%%%%% SET UP MARGINS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% left margin 1.25in (1in is automatic) right margin 1in
+\setlength{\oddsidemargin}{0.25in}
+%% evenside only counts for two sided printing
+%% this leaves 1.25in on the left
+\setlength{\evensidemargin}{0.25in}
+\setlength{\textwidth}{\paperwidth}
+        \addtolength{\textwidth}{-2.5in}
+%% top margin 1in (automatic)
+\setlength{\topmargin}{0in}
+%%  bottom margin 1in
+\setlength{\textheight}{\paperheight}
+        \addtolength{\textheight}{-2in}
+        \addtolength{\textheight}{-\headheight}
+        \addtolength{\textheight}{-\headsep}
+%% page numbers at bottom are 0.5in down into the 1in bottom margin
+%% and so 0.5in from the bottom
+\setlength{\footskip}{0.5in}
+%% marginpars should only be used in draft copies
+\setlength{\marginparsep}{1em}
+\setlength{\marginparwidth}{0.6in}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\newenvironment{examplelist}{\begin{enumerate}}{\end{enumerate}}
+
+\newenvironment{example}{\item }{}
+
+\newenvironment{badexample}{
+%  \fontencoding{T1}\fontfamily{cmfr}\selectfont 
+	\noindent \textbf{Bad:}\sl }{}
+
+\newenvironment{goodexample}{
+%  \fontencoding{OT1}\fontfamily{pss}\selectfont 
+	\noindent \textbf{Good:}\sf }{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\honame}{{handout name}}
+\newcommand{\handout}[1]{
+	\newpage
+	\renewcommand{\honame}{{#1}}
+	{\noindent {\Large {\bf \honame}} 
+		\hfill {\tiny Good Problems: \today}\\
+	}
+}
+\newcommand{\secondpage}{
+	\newpage
+	{\noindent { {\bf \honame}, page 2.} 
+		\hfill {\tiny Good Problems: \today}\\
+	}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Good Problems:
+teaching mathematical writing}
+%\author{}
+\date{Revised \today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\spacing{1.67}
+
+\maketitle
+
+\vfill
+\subsection*{Abstract:}
+
+Many students, especially those in science and engineering, are not
+able to effectively communicate mathematical ideas in
+writing. Furthermore, they generally believe that this ability is not
+important. Employers, however, consider this to be a crucial
+skill. Instructors would have to side with the employers, but usually
+do not attempt to {\em teach} the students how to write, or that
+writing is important.
+
+We present here a plan to make writing coherent mathematics a regular
+part of the students' experience.  This will both improve their
+writing and teach them that writing is valued in mathematics.  We
+provide materials to teach a set of important writing skills, so the
+students will not have to guess how to write. This method is designed
+to be as painless as possible, for the instructors as well as for the
+students.
+
+\vfill
+\spacing{1.0}
+\subsection*{Credits:}
+
+The Good Problems are maintained and updated by Martin J. Mohlenkamp;
+Department of Mathematics, 
+	Ohio University, 321 Morton Hall, Athens OH 45701; 
+	\texttt{mjm@math.ohiou.edu}.
+
+They were originally developed in the Spring of 1999 in the Teaching
+and Learning Seminar in the Department of Applied Mathematics at the
+University of Colorado.% An early version 
+\begin{description}
+\item[Good Problems: teaching mathematical writing.]
+Danielle Bundy, Ellen Gibney, Jenny McColl, Martin J. Mohlenkamp,
+Kristian Sandberg, Brian Silverstein, Peter Staab, and
+Matthew Tearle.
+{\em University of Colorado APPM preprint \#466,} August 15, 2001;\\
+\texttt{http://amath.colorado.edu/activities/preprints/}
+\end{description}
+
+
+%\marginpar{?copyright}
+
+%\vfill
+%Unresolved:
+%\begin{itemize}
+%How can the instructor do quality control of the TAs? (Perhaps a more
+%general problem.)
+%	\item
+%We should mention any problems that we can think of that might occur in
+%implementing this method, and give advice on overcoming them.
+%\end{itemize}
+
+
+\spacing{1.3}
+\input{method}
+
+\spacing{1.5}
+\input{contents}
+
+%%% begin guide handouts
+
+
+
+\spacing{1.4}
+\input{instguide}
+\pagestyle{empty} % in effect for instguide
+
+
+\spacing{1.5}
+\input{taguide}
+
+\spacing{1.4}
+\input{studguide}
+
+%%% begin main handouts
+
+\spacing{1.0}
+%\Large
+\input{layout}
+\input{sentences}
+\input{symbols}
+\input{logicalcon}
+\input{graphs}
+\input{introduction}
+%\input{conclusion}
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
