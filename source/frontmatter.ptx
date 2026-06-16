@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<frontmatter>
+  <bibinfo>
+    <author>
+      <personname>Martin J. Mohlenkamp</personname>
+      <email>mohlenka@ohio.edu</email>
+      <department> Department of Mathematics</department>
+      <institution>Ohio University</institution>
+    </author>
+    <date>
+      <today />
+    </date>
+    
+  </bibinfo>
+   <titlepage>
+    <titlepage-items/>
+  </titlepage>
+  <abstract>
+    <p>
+      Many students, especially those in science and engineering, are not able to effectively communicate mathematical ideas in writing. Furthermore, they generally believe that this ability is not important. Employers, however, consider this to be a crucial skill. Instructors would have to side with the employers, but usually do not attempt to <em>teach</em> the students how to write, or that writing is important.
+    </p>
+    <p>
+      We present here a plan to make writing coherent mathematics a regular part of the students' experience.  This will both improve their writing and teach them that writing is valued in mathematics.  We provide materials to teach a set of important writing skills, so the students will not have to guess how to write. This method is designed to be as painless as possible, for the instructors as well as for the students.
+    </p>
+  </abstract>
+  <acknowledgement>
+    <p>
+      These materials were originally developed in the Spring of 1999 in the Teaching and Learning Seminar in the Department of Applied Mathematics at the University of Colorado by Danielle Bundy, Ellen Gibney, Jenny McColl, Martin J. Mohlenkamp, Kristian Sandberg, Brian Silverstein, Peter Staab, and Matthew Tearle.
+      The original version was logged as University of Colorado APPM preprint #466, August 15, 2001.
+    </p>
+  </acknowledgement>
+  <colophon>
+    <copyright>
+      <year>2026</year>
+      <holder>Martin J. Mohlenkamp</holder>
+      <shortlicense> This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-nc-sa/4.0/" visual="creativecommons.org/licenses/by-nc-sa/4.0"> CreativeCommons.org</url>
+      </shortlicense>
+    </copyright>
+  </colophon>
+</frontmatter>
