@@ -4,32 +4,388 @@
   <introduction>
     <p>Some words</p>
   </introduction>
-  <subsection xml:id="subsection-1">
-    <title>My First Subsection</title>
-    <p>Some more words</p>
-    <p>foo</p>
-    <figure>
-      <caption>A frog</caption>
-      <image source="frog.jpg" width="50%">
-        <description>A nice-looking frog with a longish description.</description>
-      </image>
-    </figure>
-    <p>Bar: <m>\foo</m></p>
+  <subsection xml:id="sec-method">
+    <title>The Good Problems Method</title>
     <p>
-      \input{method}
-\input{contents}
-
-%%% begin guide handouts
-
-
-
-
-\input{instguide}
-
-\input{taguide}
-
-
-\input{studguide}
+      The main goal of this method is to teach mathematical writing. It is
+      motivated by our experience grading technology-based laboratory reports in
+      sophomore-level courses. It seemed that most of them had never before been
+      asked to write a coherent report on a mathematical subject. They had not
+      mastered even a basic set of writing skills. Furthermore, they resented
+      being asked to write, because they believe that it is not necessary for
+      engineers and scientists to know how to write. For most college courses this
+      is true, but we know that after college, it is crucial to be able to write
+      about what you do.
+    </p>
+    <p>
+      The method itself is very simple. Each week, in conjunction with the regular
+      homework assignment, one homework problem will be designated a
+      <q>good problem.</q> The student must write the solution to this problem
+      carefully, demonstrating specific skills at presenting mathematics. A set of
+      six skills will be taught during the course of the semester or quarter. At
+      any given point in the term, the student will be graded only on those skills
+      that have already been taught.
+    </p>
+    <p>
+      The main mechanism for teaching these skills is a set of handouts. Each
+      handout identifies and explains a specific skill, and provides examples of
+      good use of this skill and examples where this skill is lacking. The
+      examples are taken from differential Calculus, so the handouts can be used
+      at that level or above. A secondary mechanism for teaching these skills can
+      be discussions or demonstrations during the class or recitation. After a
+      skill is officially learned, the regular feedback from these weekly
+      assignments will coax the students toward mastery of that skill.
+    </p>
+    <p>
+      One beneficial side effect of this program is to encourage organization.
+      College presents new-found pressures on the students' time and energy. It is
+      expected that to survive the student will have to learn time-management and
+      organizational skills. This topic is beyond the scope of our endeavor, but
+      we require the student to present one well-organized sheet of paper each
+      week.
+    </p>
+    <p>
+      A second beneficial side effect is to encourage logical thinking. This is
+      another skill that is vital, but not taught directly. By teaching the
+      students the proper uses of logical connectives, we can teach them to
+      recognize when their argument has gaps or contradictions. It is again beyond
+      our scope to teach logical thinking properly, but we can require one logical
+      sheet of paper each week, and provide some basic skills.
+    </p>
+    <p>
+      One very important aspect of this method is that it is designed to be as
+      painless as possible. One drawback of many teaching reforms is that they
+      require significantly more effort on the part of both the instructors and
+      the students. When performance gains are noted, it is not clear how much is
+      simply due to spending more time thinking about mathematics. We aim here not
+      to add effort to the system, but to re-align a small amount of effort to a
+      more productive area.
+    </p>
+    <p>
+      This packet contains all the materials required to implement this method.
+      There is some initial added labor involved of course, but then instructors
+      need merely assemble the ingredients provided and set the program in motion.
+      The instructors or teaching assistants will need to spend time brushing up
+      on their own writing skills, but this will benefit them, and so should not
+      be considered a burden. In the short term, we are requiring the students to
+      learn additional skills and they will therefore have to expend additional
+      effort. We expect, however, the returns to be rather quick. Many of these
+      <sq>presentation</sq> skills transfer directly to problem-solving skills,
+      and also help with reading mathematics. We expect these skills to carry over
+      to future mathematics courses.
+    </p>
+  </subsection>
+  <subsection xml:id="sec-contents">
+    <title>How to Use This Packet</title>
+    <p>
+      This packet contains all the materials necessary to implement the good
+      problems program. The items included are:
+      <ul>
+        <li>
+          <p>
+            The Instructor's Guide. This guide is for the main instructor, meaning the person in charge of organizing the course. It lists those tasks that the instructor must perform to implement this scheme, indicates when they must be performed, and estimates how much time they are expected to take. If there is more than one instructor, then several of these tasks can be shared.
+          </p>
+        </li>
+        <li>
+          <p>
+            The Teaching Assistant's Guide. This guide is for the teaching assistant, who runs the recitations. It lists those tasks that the teaching assistant must perform, indicates when they must be performed, and estimates the time required. If the course is taught without recitations, then these tasks fall on the instructor.
+          </p>
+        </li>
+        <li>
+          <p>
+            The Student's Guide. This guide explains the method to the students, and tells them what is expected from them. When this program is implemented, this guide could be one side of a sheet of paper and the schedule of good problems for the course photocopied onto the back.
+          </p>
+        </li>
+        <li>
+          <p>
+            The Handouts. The main material for this method is a set of six handouts. Each handout is two pages long, so that it can be copied double-sided onto a single sheet of paper. The handout consists of a description of a particular writing skill, motivation for the importance of this skill, whatever explicit rules can be given, and examples of good and bad presentation emphasizing that skill. It is hoped that the students will find these handouts useful enough that they will keep them for future reference.
+          </p>
+          <p>
+            The handouts could be used in any order, but we suggest the following sequence: 
+            <ol>
+              <li>
+                <p>
+                  Laying out the Problem.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Flow.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Mathematical Symbols.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Logical Connectives.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Graphs.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Introductions and Conclusions.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+  <subsection xml:id="sec-instguide">
+    <title>Instructor's Guide to Good Problems</title>
+    <p>
+      This guide is for the main instructor, meaning the person in charge of
+      organizing the course. It lists those tasks that the instructor must perform
+      to implement this scheme, indicates when they must be performed, and
+      estimates how much time they are expected to take. If there is more than one
+      instructor, then several of these tasks can be shared.
+    </p>
+    <p>
+      The first time you use this method, there are extra tasks, which we list
+      first.
+      <ol>
+        <li>
+          <p>
+            Read this packet, learn this material, make modifications, and decide
+            that it is a good thing to do. This should be performed well before
+            the term starts, to allow the ideas to settle. Time required: 3 hours.
+          </p>
+        </li>
+        <li>
+          <p>
+            Convince the other people involved with the course to go along with
+            this plan. This task should be completed a month before the term
+            starts. Time required: 1 hour.
+          </p>
+        </li>
+        <li>
+          <p>
+            Deal with unanticipated problems. Time required: 2 hours.
+          </p>
+        </li>
+      </ol>
+    </p>
+    <p>
+      Each time the method is used, there are the following tasks.
+      <ol>
+        <li>
+          <p>
+            Choose the good problems, schedule them, and decide on the time
+            schedule for each new skill. The problems should not be harder than
+            the regular homework problems, but should be substantive enough that
+            there is something to write about. They must also be chosen to be
+            relevant to the new skill learned that week. (If the handout is on
+            graphing, the problem must require a graph.) Since there are only six
+            handouts, there is flexibility in scheduling certain skills for
+            certain sections, or avoiding busy (test) weeks. You might consider
+            making the good problem on the previous week's material, since a
+            student will not be able to write about new material that they do not
+            yet understand. This task should be performed when the regular
+            homework problems are chosen. Time required: 1 hour.
+          </p>
+        </li>
+        <li>
+          <p>
+            Provide initial training for teaching assistants. You must introduce
+            this method, distribute materials and discuss its implementation with
+            the teaching assistants. This should occur one week before the term
+            starts. Time required: 2 hours.
+          </p>
+        </li>
+        <li>
+          <p>
+            Explain the method to the students. The concept should be introduced
+            and the student's guide distributed in the first week of classes. The
+            skills handouts could be distributed all at once at the beginning or
+            as they are used. Time required: 10 minutes of class time.
+          </p>
+        </li>
+        <li>
+          <p>
+            Provide feedback on the handouts. Any deficiencies in the method or
+            the handouts should be noted. At the end of the term comments from the
+            instructors, teaching assistants, and students should be collected and
+            the materials corrected. Time required: 1 hour.
+          </p>
+        </li>
+      </ol>
+    </p>
+    <p>
+      <alert>Remark:</alert> Grade the good problem either as a significant
+      portion of the homework or as a quiz. A balance must be struck so the
+      students will put effort into the good problem without neglecting the
+      others.
+    </p>
+  </subsection>
+  <subsection xml:id="sec-taguide">
+    <title>Teaching Assistant's Guide to Good Problems</title>
+    <p>
+      This guide is for the teaching assistant, who runs the recitations. It lists
+      those tasks that the teaching assistant must perform, indicates when they
+      must be performed, and estimates the time required. If the course is taught
+      without recitations, then these tasks fall on the instructor.
+    </p>
+    <p>
+      The first time you use this method, there are extra tasks, which we list
+      first.
+      <ol>
+        <li>
+          <p>
+            Read and understand the material in this packet. This should be
+            performed in the week before the term starts. Time required: 2 hours.
+          </p>
+        </li>
+        <li>
+          <p>
+            Attend training. The instructor should provide some training during
+            the week before the term starts. Time required: 1 hour.
+          </p>
+        </li>
+        <li>
+          <p>
+            Deal with unanticipated problems. Time required: 2 hours.
+          </p>
+        </li>
+      </ol>
+    </p>
+    <p>
+      Each time the method is used there are the following tasks.
+      <ol>
+        <li>
+          <p>
+            Prepare for the new skill to be taught that week. It may also be
+            useful to review the old skills. This is part of the weekly
+            preparation time. Time required: 5 minutes per week.
+          </p>
+        </li>
+        <li>
+          <p>
+            Present difficult skills in the recitation. Sometimes students will
+            have particular difficulty on some specific skill. The teaching
+            assistant will need to re-explain this skill and perhaps demonstrate
+            it on a relevant problem. It is important to note that the teaching
+            assistant is not expected to be the main teacher of these skills. The
+            handouts should provide all the information the students need. Time
+            required: 5 minutes recitation time per week, on average.
+          </p>
+        </li>
+        <li>
+          <p>
+            Grade the good problems. It seems fair to grade two less regular
+            homework problems to compensate for the good problems. After some
+            initial trauma, it is expected that the good problems will be more
+            pleasant to grade than ordinary problems. There should be no net gain
+            in grading time as a result of this.
+          </p>
+        </li>
+        <li>
+          <p>
+            Provide feedback on the handouts. Any deficiencies in the method or
+            the handouts should be noted. At the end of the term these comments
+            should be collected by the instructor and the materials corrected.
+            Time required: 1 hour.
+          </p>
+        </li>
+      </ol>
+    </p>
+  </subsection>
+  <subsection xml:id="sec-studentguide">
+    <title>Student's Guide to Good Problems</title>
+    <p>
+      Many students believe that writing has nothing to do with mathematics.
+      <alert>This is false.</alert> In any field, it is important to be able to
+      communicate your ideas and results to others. Exactly how you communicate
+      them varies from field to field, but in nearly all fields it is through
+      writing. Mathematical writing, however, has its own particular style. The
+      emphasis is on clarity and precision, and not on the clever turn of phrase.
+    </p>
+    <p>
+      The <q>Good Problems</q> program is designed to teach you how to write about
+      mathematics coherently. It provides you a set of specific writing skills and
+      gives you enough practice through regular assignments so that writing well
+      will become a habit. It is also designed to be as painless as possible.
+    </p>
+    <p>
+      Throughout the term, some homework problems will be designated
+      <q>good problems</q>. You need to write the solution to this problem
+      carefully, in good <q>presentation</q> format. It will be graded partly for
+      correctness, but with emphasis on presentation.
+    </p>
+    <p>
+      During the term you will receive six handouts, each addressing a particular
+      writing skill. The good problem is graded only on those skills already
+      covered, with greater emphasis on the newest skill. By the end of the term
+      you will have acquired the basic skills of mathematical writing. The
+      handouts are:
+      <ul>
+        <li>
+          <p>
+            Laying out the Problem.
+          </p>
+        </li>
+        <li>
+          <p>
+            Flow.
+          </p>
+        </li>
+        <li>
+          <p>
+            Mathematical Symbols.
+          </p>
+        </li>
+        <li>
+          <p>
+            Logical Connectives.
+          </p>
+        </li>
+        <li>
+          <p>
+            Graphs.
+          </p>
+        </li>
+        <li>
+          <p>
+            Introductions and Conclusions.
+          </p>
+        </li>
+      </ul>
+      Each handout consists of a description of a particular writing skill,
+      motivation for the importance of this skill, whatever explicit rules can be
+      given, and examples of good and bad presentation emphasizing that skill. We
+      use a consistent format for the examples.
+    </p>    
+    <note>
+      <p>
+        An example of good writing looks like this. 
+        <aside>
+          <p>
+            A comment within an example looks like this.  
+          </p>
+        </aside>
+      </p>
+    </note>
+    <remark>
+      <p>
+        An example of poor writing looks like this.  
+      </p>
+    </remark>
+    <p>
+      If you already have these basic writing skills, then it should only take you
+      ten extra minutes to write up a good problem. If you do not have these
+      skills, then you will have to spend extra effort in the short term to
+      acquire them. In the long term, however, these skills will save you much
+      time and effort. Besides making future writing assignments easier, these
+      skills will help you with problem-solving (by encouraging organization and
+      logic) and with reading mathematics. These skills should be carried into
+      future mathematics courses, and become a useful life skill.
     </p>
   </subsection>
 </section>

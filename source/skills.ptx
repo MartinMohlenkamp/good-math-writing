@@ -1,6 +1,894 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="sec-skills" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Writing Skills</title>
+  <subsection xml:id="sec-layout">
+    <title>Laying out the Problem</title>
+    <p>
+      Presentation is very important in mathematics, just as it is in other
+      fields. The main reason for this is clarity. Good presentation allows you to
+      communicate more clearly the content of your work. A secondary reason is the
+      appearance of competence. Careful presentation makes the reader think you
+      were also careful with the content of your work. Although good presentation
+      is rarely successful at bluffing past poor content, poor presentation can
+      easily ruin good content.
+    </p>
+    <p>
+      The first thing the reader evaluates is the overall visual layout of the
+      problem. Exactly how polished this should be will depend on the purpose of
+      your writing. For our purposes, we have the following rules:
+      <ul>
+        <li>
+          <p>
+            Put the good problem on its own sheet of paper, separate from any
+            other problems. Regular quality paper is fine, but there should be no
+            ragged edges or tears.
+          </p>
+        </li>
+        <li>
+          <p>
+            If you need more than one page, staple (no folded corners!) them
+            together and put your name and the page number on each page.
+          </p>
+        </li>
+        <li>
+          <p>
+            Leave margins on all sides.
+          </p>
+        </li>
+        <li>
+          <p>
+            Print neatly or type. Do not switch colors or from pen to pencil in
+            the middle of the problem. (You can use different colors to highlight
+            if you wish.)
+          </p>
+        </li>
+        <li>
+          <p>
+            If you had to cross out material or erased a lot and left smudges,
+            rewrite the problem. (It is a good habit to solve the problem first on
+            scrap paper and then copy it neatly.)
+          </p>
+        </li>
+      </ul>
+      The reader next needs to know what it is they are reading. On top of the
+      first page, put:
+      <ol>
+        <li>
+          <p>
+            your full name,
+          </p>
+        </li>
+        <li>
+          <p>
+            the course and section or recitation number, and
+          </p>
+        </li>
+        <li>
+          <p>
+            the assignment number and/or the date the assignment is due.
+          </p>
+        </li>
+      </ol>
+      Next is the format for the problem itself:
+      <ul>
+        <li>
+          <p>
+            Label the problem with the chapter, section, and problem number.
+          </p>
+        </li>
+        <li>
+          <p>
+            Write out the entire question, including any instructions. If the
+            question refers to another problem, include the relevant information
+            from that problem. The goal is to make your work as self-contained as
+            possible, so the reader does not need to look anything up.
+          </p>
+        </li>
+        <li>
+          <p>
+            Do the problem in some logical order. Do not do the problem in several
+            disjoint pieces connected by arrows.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      All these rules may seem picky. Once you have learned this way to lay out
+      your work, you will understand the principles behind these rules. Then you
+      will know when to change the rules.
+    </p>
+    <p>
+      <alert>Acknowledgements:</alert> If you had help with this problem, or in
+      any way include work that is not your own, then give proper credit. Not only
+      is this the nice thing to do, but also it will protect you from allegations
+      of cheating.
+    </p>
+    <p>
+      Good presentation is important in mathematics. It lets you communicate your
+      work more clearly and lends it credibility.
+    </p>
+    <note>
+      <p>
+        Your Full Name
+      </p> 
+      <p>
+        Course and section or recitation number
+      </p>
+      <p>
+        Assignment number
+      </p>
+      <p>
+        Date
+      </p>  
+      <p>
+        <alert>
+          Section number, problem number.
+        </alert>
+        Full text of the problem
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah.
+      </p>
+      <p>  
+        In this problem we
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah.  
+        <aside>
+          <p>
+            There is a separate handout on introductions.  
+          </p>
+        </aside>
+      </p>
+      <p>
+        Since
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        we know
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah. 
+        <aside>
+          <p>
+            There is a separate handout on logical connectives.  
+          </p>
+        </aside>
+      </p>
+      <p>We compute
+        <aside>
+          <p>
+            There is a separate handout on mathematical symbols.  
+          </p>
+        </aside> 
+        <md>
+          <mrow> \implies \amp \text{blah}</mrow>
+          <mrow> \implies \amp \text{blah blah}</mrow>
+          <mrow> \therefore \amp \text{Blah}</mrow>  
+        </md>.
+      </p>
+      <p>
+        From this we can conclude
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah and so
+        <m>
+          x=3\pi\ldots
+        </m>
+        <ellipsis/>
+        blah.  
+        <aside>
+          <p>
+            There is a separate handout on incorporating mathematics into sentences and other issues of flow.
+          </p>
+        </aside>
+      </p>
+      <p>
+        By graphing our solution, we can see that <ellipsis/> blah.
+        <aside>
+          <p>
+            There is a separate handout on graphing.
+          </p>
+        </aside>
+      </p>  
+      <figure xml:id="fig-layout">
+        <caption>The function <ellipsis/> blah. FIX IMAGE</caption>
+        <image xml:id="tikz-fig-layout" width="40%">
+          <description>A 5-cycle</description>
+          <latex-image> \begin{tikzpicture} \coordinate (A) at (90+360/5:12); \coordinate (B) at (90+2*360/5:1); \coordinate (C) at (90+3*360/5:1); \coordinate (D) at (90+4*360/5:1); \coordinate (E) at (90:1); \draw (A) -- (B) -- (C) -- (D) -- (E) -- (A); \foreach \x in {(A), (B), (C), (D), (E)}{ \fill \x circle (2pt); } \end{tikzpicture} </latex-image>
+        </image>
+      </figure>>
+      <p>  
+        By using
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        we were able to solve this problem
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah
+        <ellipsis/>
+        blah. 
+        <aside>
+          <p>
+            There is a separate handout on conclusions.
+          </p>
+        </aside>
+      </p>
+      <p>  
+        <alert>
+          Acknowledgements:
+        </alert>
+        I worked with so-and-so on this problem and also had help from so-and-so.
+      </p>
+    </note>
+  </subsection>
+  <subsection xml:id="sec-flow">
+    <title>Flow</title>
+    <introduction>
+      
+    
+    <p>
+      Written mathematics must be readable. This may seem trivial, but it is an
+      important point. You should be able to read your work aloud to a classmate
+      and have them understand your solution. If you need to add any explanations,
+      these should be included in your written work. The most common mistake is to
+      write mathematics without using enough words. All writing, even mathematics,
+      should consist of complete sentences. These should explain the problem by
+      providing both the method and justification for each step of the solution.
+    </p>
+    <p>
+      <alert>
+        Why are sentences important in mathematics?
+      </alert>  
+      Although sometimes it seems hard to read textbooks, it would be much harder
+      to understand if they only had equations and no sentences. The situation is
+      similar in lecture: if the professor just listed formulas on the chalkboard
+      without talking about them, leaving you to figure out what was being done in
+      each step, how much could you understand from the lecture? Neither of these
+      would be a good way for most students to learn, since sentences are
+      necessary to explain the mathematics.
+    </p>
+    <p>
+      <alert>
+        Why should students use sentences in a Mathematics class?
+      </alert>
+      In a Mathematics class, you should explain homework solutions using complete
+      sentences. That means linking together thoughts with words and embedding
+      equations into sentences. Going through the extra work to do this will
+      benefit you in several ways:
+    </p>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Writing down your thoughts and organizing them into complete sentences
+            will help you to understand the method of solution better.
+          </p>
+        </li>
+        <li>
+          <p>
+            When you look back on homework to study for a test, or later on in
+            another class, you will understand what you were doing on each problem
+            and the mathematics behind it.
+          </p>
+        </li>
+        <li>
+          <p>
+            Other people (teacher, classmates, grader,...) will understand what
+            you are doing at each step, and why you are doing it. This way, you
+            won't lose points for skipping steps or solving the problem in an
+            unusual way.
+          </p>
+        </li>
+        <li>
+          <p>
+            Communicating your work will be essential in whatever field you
+            choose. Even though the fields are stereotypically weak on writing,
+            engineers and scientists spend a surprising amount of time writing
+            reports and giving oral presentations.
+          </p>
+        </li>
+      </ul>
+    </p>
+    </introduction>
+    <subsubsection>
+      <title>The Royal <q>We</q>.</title>
+      <p>
+        It is customary to write mathematics using <q>we</q> instead of <q>I</q>
+        and <q>you</q>. Think of yourself as the tour guide, showing the sights to
+        your reader. You and the reader together make <q>we</q>.
+      </p>
+    </subsubsection>
+    <subsubsection>
+      <title>Your Audience</title>
+      <p>
+        Keep in mind who your audience is. For the Good Problems, pretend that you
+        are writing for a classmate who has not seen this problem before. Write
+        with enough detail so that they can follow your explanations. A good way
+        to test if you have written enough is to read your work aloud to another
+        person. If you need to add any words to make it make sense, then these
+        words should be included in your written work.
+      </p>
+    </subsubsection>
+    <subsubsection>
+      <title>Examples:</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              Find an equation for the tangent to the curve
+              <m>y = x + \frac{2}{x}</m> at the point <m>(1,3)</m>.
+            </p>
+            <note>
+              <p>
+                We first check that <m>(1,3)</m> is a point on the curve by plugging     these values in: <m>3=1+2/1</m>. The derivative of the curve <m>y = x + \frac{2}{x}</m> is
+                <md xml:id="eqn-flow" number="yes">
+                  \frac{dy}{dx}= 1 - \frac{2}{x^{2}}
+                </md>.
+                A line tangent to the curve at the point <m>(1,3)</m> will have slope
+                <md>
+                  \left. \frac{dy}{dx}\right|_{x=1}= 1 - \frac{2}{(-1)^{2}}= -1
+                </md>.
+                Using the point-slope formula with <m>m = -1</m>, <m>x_{0} = 1</m>, and
+                <m>y_{0} = 3</m> gives the formula for the line <m>y - 3 = -1(x-1)</m>.
+                Solving for y and simplifying gives
+                <md>
+                  y = -x + 4
+                </md>.
+                This is the equation of the line tangent to the curve at that point.
+              </p>
+            </note>
+          </li>
+          <li>
+            <remark>
+              <p>
+                We use calculus to find that <m>y = 3x^{2}+1</m> has a slope of <m>3</m>   at <m>x = 1/2</m>.
+              </p>
+            </remark>
+            <note>
+              <p>
+                To find the slope of the curve <m>y = 3x^{2}+1</m> at the point <m>x = 1/2</m> we find <m>\frac{dy}{dx}</m> evaluated at <m>x = 1/2</m>. We compute 
+                <md>
+                  <mrow>\frac{dy}{dx} \amp =  6x</mrow>
+                  <mrow> \Rightarrow \left. \frac{dy}{dx} \right| _{x=1/2} \amp =  6 \left( \frac{1}{2}\right) = 3</mrow>
+                </md>.
+              </p>
+            </note>
+          </li>
+          <li>
+            <remark>
+              <p>
+                <md>
+                  <mrow>\frac{d}{dx}\left( (x^2 + 1) (x^3 +3) \right) \amp = (x^2+1)3x^2 +(x^3+3)2x</mrow>
+                  <mrow> \amp = 5x^4+3x^2+6x</mrow>
+                </md>
+                is the derivative.
+              </p>
+            </remark>
+            <note>
+              <p>
+                To take the derivative of a product of <m>2</m> functions, we use the product rule, <m>(fg)'=f'g+fg'</m>. In our case we have
+                <md>
+                  <mrow>
+                    \frac{d}{dx}\left( (x^2 + 1) (x^3 +3) \right) 
+                    \amp = \left(\frac{d}{dx} (x^2 + 1) \right) (x^3 +3) +(x^2 + 1) \left(\frac{d}{dx} (x^3 +3)\right)
+                  </mrow>
+                  <mrow> \amp = (2x)(x^3+3) +(x^2 + 1)(3x^2)</mrow>
+                  <mrow> \amp = 5x^4+3x^2+6x</mrow>
+                </md>.                
+              </p>
+            </note>
+          </li>
+          <li>
+            <p>
+              You may have noticed that one of the equations above has been labeled with an equation number at the right hand margin. If you need to refer back to an equation or figure, label it and then refer to it by its label. Do not draw arrows.
+            </p>
+            <remark>
+              <p>
+                Using the equation from before, the slope is <m>-1</m>.
+                <aside>
+                  <p>
+                    Which equation?
+                  </p>
+                </aside>
+              </p>
+            </remark>
+            <note>
+              <p>
+                Using <xref ref="eqn-flow"/>, the derivative at <m>x=1</m> is <m>-1</m>.
+              </p>
+            </note>            
+          </li>
+        </ul>
+      </p>
+    </subsubsection>
+  </subsection>
+  <subsection xml:id="sec-symbols">
+    <title>Mathematical Symbols</title>
+    <introduction>
+      <p>
+        You will encounter many mathematical symbols during your math courses. The table below provides you with a list of the more common symbols, how to read them, and notes on their meaning and usage. The following page has a series of examples of these symbols in use.
+      </p>
+      <tabular>
+        <row header="yes" bottom="minor">
+          <cell>Symbol</cell>
+          <cell>How to read it</cell>
+          <cell>Notes on meaning and usage</cell>
+        </row>
+        <row>
+          <cell><m>a=b</m></cell>
+          <cell><m>a</m> equals <m>b</m></cell>
+          <cell><m>a</m> and <m>b</m> have exactly the same value.</cell>
+        </row>
+        <row>
+          <cell><m>a \approx b</m> or</cell>
+          <cell><m>a</m> is approximately equal to <m>b</m></cell>
+          <cell>Do not write <m>=</m> when you mean <m>\approx</m>.</cell>
+        </row>
+        <row>
+          <cell><m>P\Rightarrow Q</m></cell>
+          <cell><m>P</m> implies <m>Q</m></cell>
+          <cell>If <m>P</m> is true, then <m>Q</m> is also true.</cell>
+        </row>
+        <row>
+          <cell><m>P\Leftarrow Q</m></cell>
+          <cell><m>P</m> is implied by <m>Q</m></cell>
+          <cell>If <m>Q</m> is true, then <m>P</m> is also true.</cell>
+        </row>
+        <row>
+          <cell>
+            <m>P\Leftrightarrow Q</m> or <m>P</m> <nbsp/> iff <nbsp/> <m>Q</m>
+          </cell>
+          <cell>
+            <m>P</m> is equivalent to <m>Q</m> or <m>P</m> <nbsp/> if <nbsp/> and
+            <nbsp/> only <nbsp/> if <nbsp/> <m>Q</m>
+          </cell>
+          <cell><m>P</m> and <m>Q</m> imply each other.</cell>
+        </row>
+        <row>
+          <cell><m>(a,b)</m></cell>
+          <cell>the point <m>a</m> <m>b</m></cell>
+          <cell>A coordinate in <m>\mathbb{R}^{2}</m>.</cell>
+        </row>
+        <row>
+          <cell><m>(a,b)</m></cell>
+          <cell>the open interval from <m>a</m> to <m>b</m></cell>
+          <cell>
+            The values between <m>a</m> and <m>b</m>, but not including the
+            endpoints.
+          </cell>
+        </row>
+        <row>
+          <cell><m>[a,b]</m></cell>
+          <cell>the closed interval from <m>a</m> to <m>b</m></cell>
+          <cell>
+            The values between <m>a</m> and <m>b</m>, including the endpoints.
+          </cell>
+        </row>
+        <row>
+          <cell><m>(a,b]</m></cell>
+          <cell>
+            The (half-open) interval from <m>a</m> to <m>b</m> excluding <m>a</m>,
+            and including <m>b</m>.
+          </cell>
+          <cell>
+            The values between <m>a</m> and <m>b</m>, excluding <m>a</m>, and
+            including <m>b</m>. Similar for <m>[a,b)</m>.
+          </cell>
+        </row>
+        <row>
+          <cell><m>\mathbb{R}</m> or <m>\mathbf{R}</m></cell>
+          <cell>the real numbers</cell>
+          <cell>
+            It can also be used for the plane as <m>\mathbb{R}^{2}</m>, and in
+            higher dimensions.
+          </cell>
+        </row>
+        <row>
+          <cell><m>\mathbb{C}</m> or <m>\mathbf{C}</m></cell>
+          <cell>the complex numbers</cell>
+          <cell><m>\{a+bi: a,b\in \mathbb{R}\}</m>, where <m>i^{2}=-1</m>.</cell>
+        </row>
+        <row>
+          <cell><m>\mathbb{Z}</m> or <m>\mathbf{Z}</m></cell>
+          <cell>the integers</cell>
+          <cell><ellipsis/>, <m>-2</m>, <m>-1</m>,0,1,2,3, <ellipsis/>.</cell>
+        </row>
+        <row>
+          <cell><m>\mathbb{N}</m> or <m>\mathbf{N}</m></cell>
+          <cell>the natural numbers</cell>
+          <cell><m>1,2,3,4, \ldots</m>.</cell>
+        </row>
+        <row>
+          <cell><m>a\in B</m></cell>
+          <cell><m>a</m> is an element of <m>B</m></cell>
+          <cell>The variable <m>a</m> lies in the set (of values) <m>B</m>.</cell>
+        </row>
+        <row>
+          <cell><m>a\notin B</m></cell>
+          <cell><m>a</m> is not an element of <m>B</m></cell>
+          <cell/>
+        </row>
+        <row>
+          <cell><m>A \cup B</m></cell>
+          <cell><m>A</m> union <m>B</m></cell>
+          <cell>The set of all points that fall in <m>A</m> or <m>B</m>.</cell>
+        </row>
+        <row>
+          <cell><m>A \cap B</m></cell>
+          <cell><m>A</m> intersection <m>B</m></cell>
+          <cell>
+            The set of all points that fall in both <m>A</m> and <m>B</m>.
+          </cell>
+        </row>
+        <row>
+          <cell><m>A \subset B</m></cell>
+          <cell>
+            <m>A</m> is a subset of <m>B</m> or <m>A</m> <nbsp/> is <nbsp/>
+            contained <nbsp/> in <nbsp/> <m>B</m>
+          </cell>
+          <cell>Any element of <m>A</m> is also an element of <m>B</m>.</cell>
+        </row>
+        <row>
+          <cell><m>\forall x</m></cell>
+          <cell>for all <m>x</m></cell>
+          <cell>
+            Something is true for all (any) value of <m>x</m> (usually with a side
+            condition like <m>\forall x&gt;0</m> ).
+          </cell>
+        </row>
+        <row>
+          <cell><m>\exists</m></cell>
+          <cell>there exists</cell>
+          <cell>Used in proofs and definitions as a shorthand.</cell>
+        </row>
+        <row>
+          <cell><m>\exists!</m></cell>
+          <cell>there exists a unique</cell>
+          <cell>Used in proofs and definitions as a shorthand.</cell>
+        </row>
+        <row>
+          <cell><m>f\circ g</m></cell>
+          <cell>
+            <m>f</m> composed with <m>g</m> or <m>f</m> <nbsp/> of <nbsp/> <m>g</m>
+          </cell>
+          <cell>Denotes <m>f(g(\cdot))</m>.</cell>
+        </row>
+        <row>
+          <cell><m>n!</m></cell>
+          <cell><m>n</m> factorial</cell>
+          <cell><m>n!=n(n-1)(n-2)\cdots \times 2 \times 1</m>.</cell>
+        </row>
+        <row>
+          <cell><m>\lfloor x \rfloor</m></cell>
+          <cell>the floor of <m>x</m></cell>
+          <cell>The nearest integer <m>\le x</m>.</cell>
+        </row>
+        <row>
+          <cell><m>\lceil x \rceil</m></cell>
+          <cell>the ceiling of <m>x</m></cell>
+          <cell>The nearest integer <m>\ge x</m>.</cell>
+        </row>
+        <row>
+          <cell><m>f={\cal O}(g)</m> or <m>f=O(g)</m></cell>
+          <cell><m>f</m> is big oh of <m>g</m></cell>
+          <cell>
+            <m>\lim_{x\rightarrow\infty}\sup_{y&gt;x}|f(y)/g(y)|&lt;\infty</m>.
+            Sometimes the limit is toward <m>0</m> or another point.
+          </cell>
+        </row>
+        <row>
+          <cell><m>f=o(g)</m></cell>
+          <cell><m>f</m> is little oh of <m>g</m></cell>
+          <cell><m>\lim_{x\rightarrow\infty}\sup_{y&gt;x}|f(y)/g(y)|=0</m>.</cell>
+        </row>
+        <row>
+          <cell><m>x\rightarrow a^{+}</m></cell>
+          <cell><m>x</m> goes to <m>a</m> from the right</cell>
+          <cell>
+            <m>x</m> is approaching <m>a</m>, but <m>x</m> is always greater than
+            <m>a</m>. Similar for <m>x\rightarrow a^{-}</m>.
+          </cell>
+        </row>
+      </tabular>
+    </introduction>
+    <subsubsection>
+      <title>The Trouble with <m>=</m></title>
+      <p>
+        The most commonly used, and most commonly misused, symbol is
+        <sq><m>=</m></sq>. The <sq><m>=</m></sq> symbol means that the things on
+        either side are actually the same, just written a different way. The
+        common misuse of <sq><m>=</m></sq> is to mean 'do something'. For example,
+        when asked to compute <m>(3+5)/2</m>, some people will write:
+        <remark>
+          <p>
+            <md>
+              3+5=8/2=4
+            </md>.
+          </p>
+        </remark>
+        This claims that <m>3+5=4</m>, which is false. We can fix this by carrying
+        the <sq><m>/2</m></sq> along, as in <m>(3+5)/2=8/2=4</m>. We could instead
+        use the ' <m>\Rightarrow</m> ' symbol, meaning 'implies', and turn it into
+        a logical statement:
+        <note>
+          <p>
+            <md>  
+              3+5=8\quad \Rightarrow \quad (3+5)/2=4
+            </md>.
+          </p>
+        </note>
+      </p>
+    </subsubsection>
+    <subsubsection>
+      <title>To Symbol or not to Symbol?</title>
+      <remark>
+        <p>
+          <m>\lim_{x \rightarrow x_0}f(x)=L</m> means that <m>\forall \epsilon &gt;0</m>,  <m>\exists \delta &gt;0</m> s.t. <m>\forall x</m>,
+          <md>
+            0 &lt; |x -x_{0}|&lt; \delta\quad \Rightarrow\quad |f(x)-L|&lt;\epsilon
+          </md>.          
+        </p>
+      </remark>
+      <p>
+        Although this statement is correct mathematically, it is difficult to read    (unless you are well-versed in math-speak). This example shows that although you can write math in all symbols as a shortcut, often it is clearer to use words. A compromise is often preferred.
+      </p>
+      <note>
+        <title>The Formal Definition of a Limit</title>        
+        <p>
+          Let <m>f(x)</m> be defined on an open interval about <m>x_{0}</m>, except possibly at <m>x_{0}</m> itself. We say that <m>f(x)</m> approaches the limit    <m>L</m> as <m>x</m> approaches <m>x_{0}</m>, and we write
+          <md>
+            \lim_{x \rightarrow x_0}f(x)=L
+          </md>
+          if for every number <m>\epsilon&gt;0</m>, there exists a corresponding number    <m>\delta&gt;0</m> such that for all <m>x</m> we have
+          <md>
+            0 &lt; |x -x_{0}|&lt; \delta \Longrightarrow |f(x)-L|&lt;\epsilon
+          </md>.
+        </p>
+      </note>
+    </subsubsection>
+    <subsubsection>
+      <title>Other Examples</title>
+      <p>
+        The <sq><m>\Rightarrow</m></sq> symbol should be used even when doing
+        simple algebra.
+      </p>
+      <note>
+        <md>
+        (y-0)=2(x-1) \quad \Longrightarrow \quad y=2x-2
+        </md>
+      </note>
+      <p>
+        You will be more comfortable with symbols, and better able to use them, if you connect them with their spoken form and their meaning.
+      </p>
+      <note>
+        <p>
+          The mathematical notation <m>(f \circ g)(x)</m> is read <q><m>f</m> composed with <m>g</m> at the point <m>x</m></q> or <q><m>f</m> of <m>g</m> of <m>x</m></q> and means
+          <md>
+            f(g(x))
+          </md>.
+        </p>
+      </note>
+    </subsubsection>
+  </subsection>
+  <subsection xml:id="sec-logic">
+    <title>Logical Connectives</title>
+    <introduction>
+      <p>
+        Mathematics has its own language. As with any language, effective communication depends on logically connecting components. Even the simplest <q>real</q> mathematical problems require at least a small amount of reasoning, so it is very important that you develop a feeling for formal (mathematical) logic.
+    </p>
+      <p>
+        Consider, for example, the two sentences 
+        <blockquote>
+          <p>
+            There are 10 people waiting for the bus.
+          </p>
+        </blockquote>
+        and 
+        <blockquote>
+          <p>
+            The bus is late.
+          </p>
+        </blockquote>
+        What, if anything, is the logical connection between these two sentences? Does one logically imply the other?
+        Similarly, the two mathematical statements 
+        <md>r^{2} + r - 2 = 0</md> 
+        and
+        <md>r=1\quad \text{or}\quad r=-2</md> 
+        need to be connected; otherwise they are merely two random statements that convey no useful information. Warning: when mathematicians talk about implication, it means that one thing  <alert>must</alert> be true as a consequence of another; not that it can be true, or might be true sometimes.
+      </p>
+      <p>
+        Words and symbols that tie statements together logically are called logical
+        connectives. They allow you to communicate the reasoning that has led you to
+        your conclusion. Possibly the most important of these is implication
+        <mdash/> the idea that the next statement is a logical consequence of the
+        previous one. This concept can be conveyed by the use of words such as:
+        therefore, hence, and so, thus, since, if <m>\dots</m> then <m>\dots</m>,
+        this implies, etc. In the middle of mathematical calculations, we can
+        represent these by the implication symbol ( <m>\Rightarrow</m> ). For
+        example
+        <md>
+          <mrow number="yes" xml:id="eqn-logic-first"> 
+            x + 7y^2 = 3 \amp  \Rightarrow y = \pm \sqrt{\frac{3-x}{7}} \, ; 
+          </mrow>
+          <mrow number="yes" xml:id="eqn-logic-second">
+            x \in (0,\infty) \amp \Rightarrow  \cos(x) \in [-1,1] 
+          </mrow>
+        </md>.      
+      </p>
+    </introduction>
+    <subsubsection>
+      <title>Converse</title>
+      <p>
+        Note that 
+        <blockquote>
+          <p>
+            statement A <m>\Rightarrow</m> statement B
+          </p>
+        </blockquote>
+        does <alert>not</alert> necessarily mean that the logical converse 
+        <blockquote>
+          <p>
+            statement B <m>\Rightarrow</m> statement A
+          </p>
+        </blockquote>
+        is also true. Logical implication is a matter of cause and effect; the logical converse is simply the reverse cause-effect situation (which may not be true). Consider the following, everyday example:
+        <blockquote>
+          <p>
+            I am running to class because I am late.
+          </p>
+        </blockquote>
+        It should be clear that the logical converse of these is not true:
+        <blockquote>
+          <p>
+            I am late because I am running to class.
+          </p>
+        </blockquote>
+      </p>
+      <p>
+        For examples <xref ref="eqn-logic-first"/> and <xref ref="eqn-logic-second"/> above:
+        <md>
+          x + 7y^2 = 3  \Leftarrow  y = \pm \sqrt{\frac{3-x}{7}}
+        </md>,
+        but 
+        <aside>
+          <p>
+            Since <m>x&lt;0 \Rightarrow \cos(x) \in [-1,1]</m> also.
+          </p>
+        </aside>
+        <md>
+          x \in (0,\infty)  \not\Leftarrow  \cos(x) \in [-1,1]
+        </md>.
+      </p>
+    </subsubsection>
+    <subsubsection>
+      <title>Contrapositive</title>
+      <p>
+        We have seen that simply reversing a logical statement can lead to problems. There is a way, however, to invert an implication so that the inverted statement is also true. This is known as the contrapositive. Consider the statement 
+        <md>A \Rightarrow B</md>; 
+        this means 
+        <blockquote>
+          <p>
+            if <m>A</m> is true, then <m>B</m> is true.
+          </p>
+        </blockquote>
+        The contrapositive is 
+        <blockquote>
+          <p>
+            if <m>B</m> is <alert>false</alert>, then <m>A</m> must be false.
+          </p>
+        </blockquote>
+      </p>
+      <p>
+        Here is an example of how these concepts fit together:
+        <ul>
+          <li>
+            <p>
+              If X is a cat, it is an animal. Accept as true
+            </p>
+          </li>
+          <li>
+            <p>
+              If X is an animal, it is a cat. FALSE (converse)
+            </p>
+          </li>
+          <li>
+            <p>
+              If X is not an animal, it is not a cat. TRUE (contrapositive)
+            </p>
+          </li>
+          <li>
+            <p>
+              If X is not a cat, it is not an animal. FALSE. This is the             contrapositive of the second statement, which is false.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </subsubsection>
+    <subsubsection>
+      <title>Equivalence</title>
+      <p>
+        When the implication works both ways, we say that the two statements are   equivalent and we may use the equivalence symbol (<m>\Leftrightarrow</m>); in words we may say <q>A is equivalent to B</q> or <q>A if and only if B</q>. If two statements are equivalent, we may use any of the implication symbols (<m>\Rightarrow</m>, <m>\Leftarrow</m>, or <m>\Leftrightarrow</m>). Which connective we use depends on what we are trying to show. In <xref ref="eqn-logic-first"/> above, if we are trying to obtain a formula for <m>y</m>, we would probably just use <q><m>\Rightarrow</m></q>, even though the stronger statement (<q><m>\Leftrightarrow</m></q>) is also true. If, however, we wanted to show that two statements about <m>x</m> and <m>y</m> were equivalent, we would write <m>x + 7y^{2} = 3 \Leftrightarrow y = \pm \sqrt{\frac{3-x}{7}}</m>.
+      </p>
+      <p>
+        Careful logic is the heart and soul of mathematics; learn to reason with watertight arguments and use logical connectives to explain your reasoning processes.
+      </p>
+    </subsubsection>
+    <subsubsection>
+      <title>Example:</title>
+      <p>
+        What is the greatest amount of water that a right-cylindrical water tank
+        can hold if there is <m>100 m^{2}</m> of material from which to construct
+        it?
+      </p>
+      <note>
+        <p>
+          Let the height of the tank be <m>h</m> and the radius be <m>r</m>.
+          <em>Then</em> the volume of the tank is <m>V(h,r) = \pi hr^{2}</m> and the surface area is <m>S(h,r) = 2\pi r^{2} + 2\pi rh = 2\pi r(r+h)</m>.
+          <em>Since</em> we require <m>V &gt; 0</m>, we can assume that <m>r,h &gt; 0</m>.
+          <em>If</em> we have <m>100 m^{2}</m> of material, 
+          <em>then</em> <m>S = 100</m>,
+          <em>and so</em>
+          <md>
+            <mrow>S \amp = 2\pi r(r+h) = 100</mrow>
+            <mrow> \amp \Rightarrow  r + h = \frac{100}{2\pi r}</mrow>
+            <mrow> \amp \Rightarrow  h = \frac{50}{\pi r} - r</mrow>
+            <mrow> \amp \Rightarrow  V = \pi hr^2 = 50r - \pi r^3</mrow>
+          </md>.
+           To find the maximum volume, we look for <m>r</m> such that <m>\frac{dV}{dr}= 0</m>. Differentiating with respect to <m>r</m> gives <m>\frac{dV}{dr}= 50 - 3\pi r^{2}</m>.
+           <em>Hence</em>
+           <md>
+            <mrow>\frac{dV}{dr} = 0 \amp \Leftrightarrow  50 - 3\pi r^2 = 0 </mrow>
+            <mrow> \amp \Leftrightarrow r^2 = \frac{50}{3\pi}</mrow>
+            <mrow> \amp \Leftrightarrow r = \pm \sqrt{\frac{50}{3\pi}}</mrow>
+           </md>.
+           <em>Since</em> <m>r&gt;0</m>, we can use the second derivative test and find <m>\frac{d^{2}V}{dr^{2}}= -6\pi r &lt;0</m>.
+           <em>This implies</em> that <m>r = \sqrt{\frac{50}{3\pi}}\approx 2.3033</m> maximizes <m>V</m>. From above, the optimal volume is 
+           <md>
+            <mrow>V \amp =  50r - \pi r^3</mrow>
+            <mrow> \amp =  \left( 50 - \pi \left( \frac{50}{3\pi} \right) \right) \sqrt{\frac{50}{3\pi}}</mrow>
+            <mrow> \amp =  \left( \frac{100}{3} \right) \sqrt{\frac{50}{3\pi}} \approx 76.7765</mrow>
+           </md>.
+           <em>Thus</em> we have found that the greatest amount of water such a tank can hold is (approximately) <m>76.7765 m^{3}</m>.
+        </p>
+      </note>
+  </subsubsection>
+</subsection>
+
+  <subsection xml:id="subsec-tmp">
+    <title>tmp</title>
   <p>foo</p>
   <figure xml:id="figure-tikz-example-diagram">
     <caption>The graph <m>C_5</m> made by TikZ</caption>
@@ -10,11 +898,10 @@
     </image>
   </figure>
   <p>bar
-    \input{layout}
-\input{sentences}
-\input{symbols}
-\input{logicalcon}
+    
 \input{graphs}
 \input{introduction}
   </p>
+  </subsection>
+  
 </section>
