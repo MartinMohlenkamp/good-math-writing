@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="sec-logic">
+  <title>Logical Connectives</title>
+  <introduction>
+    <p>
+      Mathematics has its own language. As with any language, effective communication depends on logically connecting components. Even the simplest <q>real</q> mathematical problems require at least a small amount of reasoning, so it is very important that you develop a feeling for formal (mathematical) logic.
+  </p>
+    <p>
+      Consider, for example, the two sentences 
+      <blockquote>
+        <p>
+          There are 10 people waiting for the bus.
+        </p>
+      </blockquote>
+      and 
+      <blockquote>
+        <p>
+          The bus is late.
+        </p>
+      </blockquote>
+      What, if anything, is the logical connection between these two sentences? Does one logically imply the other?
+      Similarly, the two mathematical statements 
+      <md>r^{2} + r - 2 = 0</md> 
+      and
+      <md>r=1\quad \text{or}\quad r=-2</md> 
+      need to be connected; otherwise they are merely two random statements that convey no useful information. Warning: when mathematicians talk about implication, it means that one thing  <alert>must</alert> be true as a consequence of another; not that it can be true, or might be true sometimes.
+    </p>
+    <p>
+      Words and symbols that tie statements together logically are called logical
+      connectives. They allow you to communicate the reasoning that has led you to
+      your conclusion. Possibly the most important of these is implication
+      <mdash/> the idea that the next statement is a logical consequence of the
+      previous one. This concept can be conveyed by the use of words such as:
+      therefore, hence, and so, thus, since, if <m>\dots</m> then <m>\dots</m>,
+      this implies, etc. In the middle of mathematical calculations, we can
+      represent these by the implication symbol ( <m>\Rightarrow</m> ). For
+      example
+      <md>
+        <mrow number="yes" xml:id="eqn-logic-first"> 
+          x + 7y^2 = 3 \amp  \Rightarrow y = \pm \sqrt{\frac{3-x}{7}} \, ; 
+        </mrow>
+        <mrow number="yes" xml:id="eqn-logic-second">
+          x \in (0,\infty) \amp \Rightarrow  \cos(x) \in [-1,1] 
+        </mrow>
+      </md>.      
+    </p>
+  </introduction>
+  <subsection>
+    <title>Converse</title>
+    <p>
+      Note that 
+      <blockquote>
+        <p>
+          statement A <m>\Rightarrow</m> statement B
+        </p>
+      </blockquote>
+      does <alert>not</alert> necessarily mean that the logical converse 
+      <blockquote>
+        <p>
+          statement B <m>\Rightarrow</m> statement A
+        </p>
+      </blockquote>
+      is also true. Logical implication is a matter of cause and effect; the logical converse is simply the reverse cause-effect situation (which may not be true). Consider the following, everyday example:
+      <blockquote>
+        <p>
+          I am running to class because I am late.
+        </p>
+      </blockquote>
+      It should be clear that the logical converse of these is not true:
+      <blockquote>
+        <p>
+          I am late because I am running to class.
+        </p>
+      </blockquote>
+    </p>
+    <p>
+      For examples <xref ref="eqn-logic-first"/> and <xref ref="eqn-logic-second"/> above:
+      <md>
+        x + 7y^2 = 3  \Leftarrow  y = \pm \sqrt{\frac{3-x}{7}}
+      </md>,
+      but 
+      <aside>
+        <p>
+          Since <m>x&lt;0 \Rightarrow \cos(x) \in [-1,1]</m> also.
+        </p>
+      </aside>
+      <md>
+        x \in (0,\infty)  \not\Leftarrow  \cos(x) \in [-1,1]
+      </md>.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Contrapositive</title>
+    <p>
+      We have seen that simply reversing a logical statement can lead to problems. There is a way, however, to invert an implication so that the inverted statement is also true. This is known as the contrapositive. Consider the statement 
+      <md>A \Rightarrow B</md>; 
+      this means 
+      <blockquote>
+        <p>
+          if <m>A</m> is true, then <m>B</m> is true.
+        </p>
+      </blockquote>
+      The contrapositive is 
+      <blockquote>
+        <p>
+          if <m>B</m> is <alert>false</alert>, then <m>A</m> must be false.
+        </p>
+      </blockquote>
+    </p>
+    <p>
+      Here is an example of how these concepts fit together:
+      <ul>
+        <li>
+          <p>
+            If X is a cat, it is an animal. Accept as true
+          </p>
+        </li>
+        <li>
+          <p>
+            If X is an animal, it is a cat. FALSE (converse)
+          </p>
+        </li>
+        <li>
+          <p>
+            If X is not an animal, it is not a cat. TRUE (contrapositive)
+          </p>
+        </li>
+        <li>
+          <p>
+            If X is not a cat, it is not an animal. FALSE. This is the             contrapositive of the second statement, which is false.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+  <subsection>
+    <title>Equivalence</title>
+    <p>
+      When the implication works both ways, we say that the two statements are   equivalent and we may use the equivalence symbol (<m>\Leftrightarrow</m>); in words we may say <q>A is equivalent to B</q> or <q>A if and only if B</q>. If two statements are equivalent, we may use any of the implication symbols (<m>\Rightarrow</m>, <m>\Leftarrow</m>, or <m>\Leftrightarrow</m>). Which connective we use depends on what we are trying to show. In <xref ref="eqn-logic-first"/> above, if we are trying to obtain a formula for <m>y</m>, we would probably just use <q><m>\Rightarrow</m></q>, even though the stronger statement (<q><m>\Leftrightarrow</m></q>) is also true. If, however, we wanted to show that two statements about <m>x</m> and <m>y</m> were equivalent, we would write <m>x + 7y^{2} = 3 \Leftrightarrow y = \pm \sqrt{\frac{3-x}{7}}</m>.
+    </p>
+    <p>
+      Careful logic is the heart and soul of mathematics; learn to reason with watertight arguments and use logical connectives to explain your reasoning processes.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Example:</title>
+    <p>
+      What is the greatest amount of water that a right-cylindrical water tank
+      can hold if there is <m>100 m^{2}</m> of material from which to construct
+      it?
+    </p>
+    <note>
+      <p>
+        Let the height of the tank be <m>h</m> and the radius be <m>r</m>.
+        <em>Then</em> the volume of the tank is <m>V(h,r) = \pi hr^{2}</m> and the surface area is <m>S(h,r) = 2\pi r^{2} + 2\pi rh = 2\pi r(r+h)</m>.
+        <em>Since</em> we require <m>V &gt; 0</m>, we can assume that <m>r,h &gt; 0</m>.
+        <em>If</em> we have <m>100 m^{2}</m> of material, 
+        <em>then</em> <m>S = 100</m>,
+        <em>and so</em>
+        <md>
+          <mrow>S \amp = 2\pi r(r+h) = 100</mrow>
+          <mrow> \amp \Rightarrow  r + h = \frac{100}{2\pi r}</mrow>
+          <mrow> \amp \Rightarrow  h = \frac{50}{\pi r} - r</mrow>
+          <mrow> \amp \Rightarrow  V = \pi hr^2 = 50r - \pi r^3</mrow>
+        </md>.
+          To find the maximum volume, we look for <m>r</m> such that <m>\frac{dV}{dr}= 0</m>. Differentiating with respect to <m>r</m> gives <m>\frac{dV}{dr}= 50 - 3\pi r^{2}</m>.
+          <em>Hence</em>
+          <md>
+          <mrow>\frac{dV}{dr} = 0 \amp \Leftrightarrow  50 - 3\pi r^2 = 0 </mrow>
+          <mrow> \amp \Leftrightarrow r^2 = \frac{50}{3\pi}</mrow>
+          <mrow> \amp \Leftrightarrow r = \pm \sqrt{\frac{50}{3\pi}}</mrow>
+          </md>.
+          <em>Since</em> <m>r&gt;0</m>, we can use the second derivative test and find <m>\frac{d^{2}V}{dr^{2}}= -6\pi r &lt;0</m>.
+          <em>This implies</em> that <m>r = \sqrt{\frac{50}{3\pi}}\approx 2.3033</m> maximizes <m>V</m>. From above, the optimal volume is 
+          <md>
+          <mrow>V \amp =  50r - \pi r^3</mrow>
+          <mrow> \amp =  \left( 50 - \pi \left( \frac{50}{3\pi} \right) \right) \sqrt{\frac{50}{3\pi}}</mrow>
+          <mrow> \amp =  \left( \frac{100}{3} \right) \sqrt{\frac{50}{3\pi}} \approx 76.7765</mrow>
+          </md>.
+          <em>Thus</em> we have found that the greatest amount of water such a tank can hold is (approximately) <m>76.7765 m^{3}</m>.
+      </p>
+    </note>
+  </subsection>
+</section>

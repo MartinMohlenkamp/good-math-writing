@@ -15,8 +15,19 @@
     <title>Good Problems: teaching mathematical writing</title>
 
     <xi:include href="./frontmatter.ptx" />
+
     <xi:include href="./instructions.ptx" />
+    <xi:include href="./contents.ptx" />
+    <xi:include href="./instguide.ptx" />
+    <xi:include href="./taguide.ptx" />
+    <xi:include href="./studentguide.ptx" />
+
     <xi:include href="./skills.ptx" />
+    <xi:include href="./flow.ptx" />
+    <xi:include href="./symbols.ptx" />
+    <xi:include href="./logic.ptx" />
+    <xi:include href="./graphs.ptx" />
+    <xi:include href="./introduction.ptx" />
   </article>
 
 </pretext>

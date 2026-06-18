@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="sec-flow">
+  <title>Flow</title>
+  <introduction>
+  <p>
+    Written mathematics must be readable. This may seem trivial, but it is an
+    important point. You should be able to read your work aloud to a classmate
+    and have them understand your solution. If you need to add any explanations,
+    these should be included in your written work. The most common mistake is to
+    write mathematics without using enough words. All writing, even mathematics,
+    should consist of complete sentences. These should explain the problem by
+    providing both the method and justification for each step of the solution.
+  </p>
+  <p>
+    <alert>
+      Why are sentences important in mathematics?
+    </alert>  
+    Although sometimes it seems hard to read textbooks, it would be much harder
+    to understand if they only had equations and no sentences. The situation is
+    similar in lecture: if the professor just listed formulas on the chalkboard
+    without talking about them, leaving you to figure out what was being done in
+    each step, how much could you understand from the lecture? Neither of these
+    would be a good way for most students to learn, since sentences are
+    necessary to explain the mathematics.
+  </p>
+  <p>
+    <alert>
+      Why should students use sentences in a Mathematics class?
+    </alert>
+    In a Mathematics class, you should explain homework solutions using complete
+    sentences. That means linking together thoughts with words and embedding
+    equations into sentences. Going through the extra work to do this will
+    benefit you in several ways:
+  </p>
+  <p>
+    <ul>
+      <li>
+        <p>
+          Writing down your thoughts and organizing them into complete sentences
+          will help you to understand the method of solution better.
+        </p>
+      </li>
+      <li>
+        <p>
+          When you look back on homework to study for a test, or later on in
+          another class, you will understand what you were doing on each problem
+          and the mathematics behind it.
+        </p>
+      </li>
+      <li>
+        <p>
+          Other people (teacher, classmates, grader,...) will understand what
+          you are doing at each step, and why you are doing it. This way, you
+          won't lose points for skipping steps or solving the problem in an
+          unusual way.
+        </p>
+      </li>
+      <li>
+        <p>
+          Communicating your work will be essential in whatever field you
+          choose. Even though the fields are stereotypically weak on writing,
+          engineers and scientists spend a surprising amount of time writing
+          reports and giving oral presentations.
+        </p>
+      </li>
+    </ul>
+  </p>
+  </introduction>
+  <subsection>
+    <title>The Royal <q>We</q>.</title>
+    <p>
+      It is customary to write mathematics using <q>we</q> instead of <q>I</q>
+      and <q>you</q>. Think of yourself as the tour guide, showing the sights to
+      your reader. You and the reader together make <q>we</q>.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Your Audience</title>
+    <p>
+      Keep in mind who your audience is. For the Good Problems, pretend that you
+      are writing for a classmate who has not seen this problem before. Write
+      with enough detail so that they can follow your explanations. A good way
+      to test if you have written enough is to read your work aloud to another
+      person. If you need to add any words to make it make sense, then these
+      words should be included in your written work.
+    </p>
+  </subsection>
+  <subsection>
+    <title>Examples</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Find an equation for the tangent to the curve
+            <m>y = x + \frac{2}{x}</m> at the point <m>(1,3)</m>.
+          </p>
+          <note>
+            <p>
+              We first check that <m>(1,3)</m> is a point on the curve by plugging     these values in: <m>3=1+2/1</m>. The derivative of the curve <m>y = x + \frac{2}{x}</m> is
+              <md xml:id="eqn-flow" number="yes">
+                \frac{dy}{dx}= 1 - \frac{2}{x^{2}}
+              </md>.
+              A line tangent to the curve at the point <m>(1,3)</m> will have slope
+              <md>
+                \left. \frac{dy}{dx}\right|_{x=1}= 1 - \frac{2}{(-1)^{2}}= -1
+              </md>.
+              Using the point-slope formula with <m>m = -1</m>, <m>x_{0} = 1</m>, and
+              <m>y_{0} = 3</m> gives the formula for the line <m>y - 3 = -1(x-1)</m>.
+              Solving for y and simplifying gives
+              <md>
+                y = -x + 4
+              </md>.
+              This is the equation of the line tangent to the curve at that point.
+            </p>
+          </note>
+        </li>
+        <li>
+          <remark>
+            <p>
+              We use calculus to find that <m>y = 3x^{2}+1</m> has a slope of <m>3</m>   at <m>x = 1/2</m>.
+            </p>
+          </remark>
+          <note>
+            <p>
+              To find the slope of the curve <m>y = 3x^{2}+1</m> at the point <m>x = 1/2</m> we find <m>\frac{dy}{dx}</m> evaluated at <m>x = 1/2</m>. We compute 
+              <md>
+                <mrow>\frac{dy}{dx} \amp =  6x</mrow>
+                <mrow> \Rightarrow \left. \frac{dy}{dx} \right| _{x=1/2} \amp =  6 \left( \frac{1}{2}\right) = 3</mrow>
+              </md>.
+            </p>
+          </note>
+        </li>
+        <li>
+          <remark>
+            <p>
+              <md>
+                <mrow>\frac{d}{dx}\left( (x^2 + 1) (x^3 +3) \right) \amp = (x^2+1)3x^2 +(x^3+3)2x</mrow>
+                <mrow> \amp = 5x^4+3x^2+6x</mrow>
+              </md>
+              is the derivative.
+            </p>
+          </remark>
+          <note>
+            <p>
+              To take the derivative of a product of <m>2</m> functions, we use the product rule, <m>(fg)'=f'g+fg'</m>. In our case we have
+              <md>
+                <mrow>
+                  \frac{d}{dx}\left( (x^2 + 1) (x^3 +3) \right) 
+                  \amp = \left(\frac{d}{dx} (x^2 + 1) \right) (x^3 +3) +(x^2 + 1) \left(\frac{d}{dx} (x^3 +3)\right)
+                </mrow>
+                <mrow> \amp = (2x)(x^3+3) +(x^2 + 1)(3x^2)</mrow>
+                <mrow> \amp = 5x^4+3x^2+6x</mrow>
+              </md>.                
+            </p>
+          </note>
+        </li>
+        <li>
+          <p>
+            You may have noticed that one of the equations above has been labeled with an equation number at the right hand margin. If you need to refer back to an equation or figure, label it and then refer to it by its label. Do not draw arrows.
+          </p>
+          <remark>
+            <p>
+              Using the equation from before, the slope is <m>-1</m>.
+              <aside>
+                <p>
+                  Which equation?
+                </p>
+              </aside>
+            </p>
+          </remark>
+          <note>
+            <p>
+              Using <xref ref="eqn-flow"/>, the derivative at <m>x=1</m> is <m>-1</m>.
+            </p>
+          </note>            
+        </li>
+      </ul>
+    </p>
+  </subsection>
+</section>

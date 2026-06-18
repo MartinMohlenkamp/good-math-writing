@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="sec-intro-conclude">
+  <title>Introductions and Conclusions</title>
+  <subsection>
+    <title>Introductions</title>
+    <introduction>
+      <p>
+        The purpose of an introduction is to explain the important techniques used to solve your problem. The length may vary from a few sentences to a paragraph. The length usually depends upon the number of steps in your problem needed to get to a solution. A well constructed introduction will make your answer and work easy to follow. On the other hand, a poorly constructed introduction will confuse the reader.
+      </p>
+      <p>
+        We will illustrate some things to cover in your introduction with the
+        problem: 
+      </p>
+      <blockquote>
+        <p>
+          Use the Sandwich Theorem to find the asymptotes of the curve <m>y= \sin(x)/x</m>.
+        </p>
+      </blockquote>
+      <aside>
+        <p>
+          The Sandwich Theorem is also known as the Squeeze Theorem.
+        </p>
+      </aside>
+      
+    </introduction>
+    <subsubsection xml:id="subsubsec-about">
+      <title>What the problem is about.</title>
+      <p>
+        Ask yourself: <q>What am I doing?</q> Someone reading your problem should get an idea of what you are about to do. If there are multiple parts then explain each part.
+      </p>
+      <remark>
+        <p>
+          I'm going to calculate the asymptotes.
+        </p>
+      </remark>
+      <note>
+        <p>
+          We will find the asymptotes of the function <m>y=\sin(x)/x</m>.
+        </p>
+        <aside>
+          <p>
+            This one supplies more information to the reader.
+          </p>
+        </aside>
+      </note>
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-techniques">
+      <title>The technique(s) you are going to use.</title>
+      <p>
+        This will usually correspond to the topic you are learning. Your assigned problem will generally come from a section you are covering in class, and you can use this as a guide. Sometimes your problem will involve several concepts and you should mention what the predominant technique is that you are going to use. Do not mention the details of your calculations.
+      </p>
+      <remark>
+        <p>
+          Calculating the limit of <m>y=\sin(x)/x</m> will tell me where the asymptotes are.
+        </p>
+      </remark>
+      <note>
+        <p>
+          To find the asymptotes, we will take the limits as <m>x</m> approaches infinity or negative infinity. To determine these limits, we will use the Sandwich Theorem.
+        </p>
+        <aside>
+          <p>
+            The techniques employed are mentioned.
+          </p>
+        </aside>
+      </note>
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-physical">
+      <title>Physical interpretation, if appropriate.</title>
+      <p>
+        Whether this is necessary depends upon the question. If applicable, this step is both helpful for you and the person who is reading your problem. Again, think about what you are doing. Give a physical description of the mathematical steps you are employing to solve your problem. If you were to draw a tangent line at a point, what would the picture look like?
+      </p>
+      <remark>
+        <p>
+          By looking at the graph, <m>y</m> goes to the <m>x</m> axis.
+        </p>
+        <aside>
+          <p>
+            What are you talking about?
+          </p>
+        </aside>
+      </remark>
+      <note>
+        <p>
+          By looking at the graph of the function, we see that as <m>x</m> approaches <m>\pm\infty</m>, <m>y</m> approaches <nbsp/> 0, so the graph approaches the <m>x</m>-axis.
+        </p>
+      </note>
+      <aside>
+        <p>
+          This description is much clearer.
+        </p>
+      </aside>
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-together">
+      <title>Putting it all together</title>
+      <remark>
+        <p>
+          I'm going to calculate the asymptotes. Calculating the limit of <m>y=\sin(x)/x</m> will tell me where the asymptotes are. By looking at the graph, <m>y</m> goes to the <m>x</m>-axis.
+        </p>
+      </remark>
+      <note>
+        <p>
+          We will find the asymptotes of the function <m>y=\sin(x)/x</m>. To find the asymptotes, we will take the limits as <m>x</m> approaches infinity or negative infinity. To determine these limits, we will use the Sandwich Theorem. By looking at the graph of the function, we see that as <m>x</m> approaches <m>\pm\infty</m>, <m>y</m> approaches 0, so the graph approaches the <m>x</m>-axis.
+        </p>
+      </note>
+      <p>
+        The bad introduction doesn't flow very well. Someone reading it would not understand what you did. It is obvious that you calculated the asymptotes, but when solving a problem, the techniques employed are as important as your answer. 
+        The good introduction briefly explains how you used the Sandwich Theorem along with the result you obtained. This would allow the reader to have a clear understanding of the mathematical calculations that follow.
+    </p>
+    </subsubsection>
+  </subsection>
+  <subsection>
+    <title>Conclusions</title>
+    <p>
+      Your solution should end with a brief concluding paragraph. The conclusion
+      is a short, concise paragraph that summarizes the main ideas, techniques
+      and results discussed in the problem. The concluding paragraph should
+      focus on the main results and main ideas so that the reader can absorb the
+      important parts of your solution to the problem. The concluding paragraph
+      should not introduce any new material but simply bring back the reader to
+      the main ideas of your solution to the problem. This means that you should
+      not introduce something in the conclusion that was not discussed earlier
+      in your solution.
+    </p>
+    <p>
+      When you write a conclusion, put yourself in the potential reader's
+      position and imagine what kind of information this reader may look for
+      when he or she reads the concluding paragraph. Also, ask yourself
+      <q>What do I want my reader to remember?</q> Here are a few suggestions of
+      what you may want to include in the conclusion paragraph:
+    </p>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Restate the problem you solved.
+          </p>
+        </li>
+        <li>
+          <p>
+            Restate the results and interpretation of the results. If your
+            results are lengthy, such as a big table with numerical values, just
+            describe the results qualitatively. For example, give the range of
+            values for your results.
+          </p>
+        </li>
+        <li>
+          <p>
+            Indicate if your results seem reasonable. If not, then explain why.
+          </p>
+        </li>
+        <li>
+          <p>
+            If you were unsuccessful in solving your problem, mention possible
+            reasons for this.
+          </p>
+        </li>
+        <li>
+          <p>
+            If applicable, mention other problems that are related to the
+            problem you solved.
+          </p>
+        </li>
+        <li>
+          <p>
+            Give suggestions for improvements, i.e., what else you could do for
+            the problem.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      These are just suggestions, and not all of them may be applicable for your
+      problem.
+    </p>
+    <p>
+      Consider the example problem:
+    </p>
+    <blockquote>
+      <p>
+        Find the dimensions of a right circular cylinder of volume <m>10^{-6}\ m^{3}</m> such that a minimum amount of material is used.
+      </p>
+    </blockquote>
+    
+    <remark>
+      <p>
+        In this problem I used calculus to solve a mathematical problem.    
+      </p>
+      <aside>
+        <p>
+          This gives no information.
+        </p>
+      </aside>
+    </remark>
+    <remark>
+      <p>
+        I solved for <m>h</m> in <m>\pi r^{2}h=10^{-6}</m> and plugged the expression for <m>h</m> into <m>2\pi r^{2}+2\pi rh</m>. Then I took the derivative of <m>2\pi r^{2}+\frac{2\times 10^{-6}}{r}</m>. Then I set the derivative equal to zero. Then I solved for <m>r</m>.
+      </p>
+      <aside>
+        <p>
+          This poor example fails to focus on the main ideas of the problem. It gives a (bad) summary of some of the steps used to solve the problem. It does not summarize the problem given to us and it does not clearly indicate what your bottom line was or if your were even successful in solving the problem.
+        </p>
+      </aside>
+    </remark>
+    <note>
+      <p>
+        The problem discussed in this paper is to find the dimensions of a right circular cylinder of volume <m>10^{-6}\ m^{3}</m> such that a minimum amount of material is used. The problem was solved by minimizing the area of the cylinder using the first and second derivative test. The optimal dimensions were found to be radius <m>\cong 5.42\ cm</m> and height <m>\cong 10.84\ cm</m>. The method used for solving the problem can be applied to other optimization problems, e.g., finding the dimensions of other shapes with a fixed volume such that the used material is minimized. A possible development of the technique used could be to consider optimization of a function of more than two parameters and more than one constraint.
+      </p>
+      <aside>
+        <p>
+          Note that the suggested conclusion requires that we actually did discuss possible applications and developments of the technique earlier in the report, something that may not be required for you in your course.
+        </p>
+      </aside>
+    </note> 
+  </subsection>
+</section>

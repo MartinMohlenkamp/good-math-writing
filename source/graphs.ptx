@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="sec-graphs"> 
+  <title>Graphs</title>
+  <introduction>
+    <p>
+      Graphs are an important visual aid in mathematics and it is important to learn how to draw them properly. For a graph to be useful it must display the important and interesting information about a function and have all relevant points clearly labeled.
+    </p>
+    <p>
+      When drawing graphs, it is helpful to ask yourself:
+      <ul>
+        <li>
+          <p>
+            Have I graphed what is being asked?
+          </p>
+        </li>
+        <li>
+          <p>
+            Have I put a title on the graph and labeled the axes?
+          </p>
+        </li>
+        <li>
+          <p>
+            Is the scale I have chosen for my graph appropriate?
+          </p>
+        </li>
+        <li>
+          <p>
+            Have I illustrated the important features?
+          </p>
+        </li>
+        <li>
+          <p>
+            Have I included enough detail?
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      You can often determine how much detail to include in your graph from the question. For example, if you are finding the extreme points of a function, then you will probably be expected to label these points on your graph. If you are only sketching the graph of a function then less detail is required. The main purpose of a sketch is to get some idea of the general shape and behavior of the function. In this case, it is not usually necessary to label extreme points and intercepts. However, you should always remember to label your axes and put a title on your graph, even if it is only a sketch. Use a ruler if necessary to draw straight lines. If you are drawing more than one curve on the same set of axes, take particular care to make sure that each curve is clearly labeled.
+    </p>
+  </introduction>
+  <subsection>
+    <title>Examples</title>
+    <p>
+      Graph the curve <m>y= x^{3} - 4x</m>.
+    </p>
+    <note>
+      <p>
+        FILL 
+      </p>
+      <p>
+        The curve <m>y=x^{3}-4x</m>.
+      </p>
+      <aside>
+        <p>
+          The curve, axes, extreme points, and <m>x</m>- and <m>y</m>-intercepts are clearly labeled. These are the <em>points of interest</em> for this function.
+        </p>
+      </aside>
+    </note>
+    <remark>
+      <p>
+        FILL
+      </p>
+      <aside>
+        <p>
+          Although this second solution has labeled axes, the graph has no title so it is not clear to someone else what they are viewing. There are also no labels on the extreme points or intercepts and no scale is given on the <m>y</m>-axis. Although this is a bad example of a solution to this question it would be sufficient if only a rough sketch was required.
+        </p>
+      </aside>
+    </remark>
+    <p>
+      Choose a suitable scale so that all of the interesting features of the graph are included. For example, when graphing our function
+      <md>
+        y= x^{3} - 4x
+      </md>
+      a suitable scale meant including all of the extreme points and <m>x</m>- and <m>y</m>-intercepts. Be especially careful about the scale when using a graphing calculator or computer. They do not have any idea which points are interesting, so they will often give inappropriate scales. The following graphs give examples of bad choices of scale for our problem.
+    </p>
+    <remark>
+      <p>
+        FILL
+      </p>
+      <aside>
+        <p>
+          The graph on the left uses too large a scale so the extreme points are hard to see and will be difficult to label. The scale used for the graph on the right is too small as it fails to include two of the <m>x</m>x-intercepts.
+        </p>
+      </aside>
+    </remark>
+    <p>
+      Also make sure that what you are graphing makes sense. If you are drawing the graph of a function that represents the distance of a space shuttle from the surface of the earth against time, it makes no sense to include negative distances, as this is unphysical. Similar reasoning applies to graphs representing populations, areas, and volumes.
+    </p>
+    <p>
+      Finally, being able to draw and sketch graphs well can sometimes help while trying to answer a question, even if a graph is not required in the solution. For more difficult problems in particular, being able to sketch a function to identify its behavior often provides more insight than looking at the equation alone.
+    </p>
+  </subsection>
+</section>
+

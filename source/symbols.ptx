@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="sec-symbols">
+  <title>Mathematical Symbols</title>
+  <introduction>
+    <p>
+      You will encounter many mathematical symbols during your math courses. The table below provides you with a list of the more common symbols, how to read them, and notes on their meaning and usage. The following page has a series of examples of these symbols in use.
+    </p>
+    <tabular>
+      <row header="yes" bottom="minor">
+        <cell>Symbol</cell>
+        <cell>How to read it</cell>
+        <cell>Notes on meaning and usage</cell>
+      </row>
+      <row>
+        <cell><m>a=b</m></cell>
+        <cell><m>a</m> equals <m>b</m></cell>
+        <cell><m>a</m> and <m>b</m> have exactly the same value.</cell>
+      </row>
+      <row>
+        <cell><m>a \approx b</m> or</cell>
+        <cell><m>a</m> is approximately equal to <m>b</m></cell>
+        <cell>Do not write <m>=</m> when you mean <m>\approx</m>.</cell>
+      </row>
+      <row>
+        <cell><m>P\Rightarrow Q</m></cell>
+        <cell><m>P</m> implies <m>Q</m></cell>
+        <cell>If <m>P</m> is true, then <m>Q</m> is also true.</cell>
+      </row>
+      <row>
+        <cell><m>P\Leftarrow Q</m></cell>
+        <cell><m>P</m> is implied by <m>Q</m></cell>
+        <cell>If <m>Q</m> is true, then <m>P</m> is also true.</cell>
+      </row>
+      <row>
+        <cell>
+          <m>P\Leftrightarrow Q</m> or <m>P</m> <nbsp/> iff <nbsp/> <m>Q</m>
+        </cell>
+        <cell>
+          <m>P</m> is equivalent to <m>Q</m> or <m>P</m> <nbsp/> if <nbsp/> and
+          <nbsp/> only <nbsp/> if <nbsp/> <m>Q</m>
+        </cell>
+        <cell><m>P</m> and <m>Q</m> imply each other.</cell>
+      </row>
+      <row>
+        <cell><m>(a,b)</m></cell>
+        <cell>the point <m>a</m> <m>b</m></cell>
+        <cell>A coordinate in <m>\mathbb{R}^{2}</m>.</cell>
+      </row>
+      <row>
+        <cell><m>(a,b)</m></cell>
+        <cell>the open interval from <m>a</m> to <m>b</m></cell>
+        <cell>
+          The values between <m>a</m> and <m>b</m>, but not including the
+          endpoints.
+        </cell>
+      </row>
+      <row>
+        <cell><m>[a,b]</m></cell>
+        <cell>the closed interval from <m>a</m> to <m>b</m></cell>
+        <cell>
+          The values between <m>a</m> and <m>b</m>, including the endpoints.
+        </cell>
+      </row>
+      <row>
+        <cell><m>(a,b]</m></cell>
+        <cell>
+          The (half-open) interval from <m>a</m> to <m>b</m> excluding <m>a</m>,
+          and including <m>b</m>.
+        </cell>
+        <cell>
+          The values between <m>a</m> and <m>b</m>, excluding <m>a</m>, and
+          including <m>b</m>. Similar for <m>[a,b)</m>.
+        </cell>
+      </row>
+      <row>
+        <cell><m>\mathbb{R}</m> or <m>\mathbf{R}</m></cell>
+        <cell>the real numbers</cell>
+        <cell>
+          It can also be used for the plane as <m>\mathbb{R}^{2}</m>, and in
+          higher dimensions.
+        </cell>
+      </row>
+      <row>
+        <cell><m>\mathbb{C}</m> or <m>\mathbf{C}</m></cell>
+        <cell>the complex numbers</cell>
+        <cell><m>\{a+bi: a,b\in \mathbb{R}\}</m>, where <m>i^{2}=-1</m>.</cell>
+      </row>
+      <row>
+        <cell><m>\mathbb{Z}</m> or <m>\mathbf{Z}</m></cell>
+        <cell>the integers</cell>
+        <cell><ellipsis/>, <m>-2</m>, <m>-1</m>,0,1,2,3, <ellipsis/>.</cell>
+      </row>
+      <row>
+        <cell><m>\mathbb{N}</m> or <m>\mathbf{N}</m></cell>
+        <cell>the natural numbers</cell>
+        <cell><m>1,2,3,4, \ldots</m>.</cell>
+      </row>
+      <row>
+        <cell><m>a\in B</m></cell>
+        <cell><m>a</m> is an element of <m>B</m></cell>
+        <cell>The variable <m>a</m> lies in the set (of values) <m>B</m>.</cell>
+      </row>
+      <row>
+        <cell><m>a\notin B</m></cell>
+        <cell><m>a</m> is not an element of <m>B</m></cell>
+        <cell/>
+      </row>
+      <row>
+        <cell><m>A \cup B</m></cell>
+        <cell><m>A</m> union <m>B</m></cell>
+        <cell>The set of all points that fall in <m>A</m> or <m>B</m>.</cell>
+      </row>
+      <row>
+        <cell><m>A \cap B</m></cell>
+        <cell><m>A</m> intersection <m>B</m></cell>
+        <cell>
+          The set of all points that fall in both <m>A</m> and <m>B</m>.
+        </cell>
+      </row>
+      <row>
+        <cell><m>A \subset B</m></cell>
+        <cell>
+          <m>A</m> is a subset of <m>B</m> or <m>A</m> <nbsp/> is <nbsp/>
+          contained <nbsp/> in <nbsp/> <m>B</m>
+        </cell>
+        <cell>Any element of <m>A</m> is also an element of <m>B</m>.</cell>
+      </row>
+      <row>
+        <cell><m>\forall x</m></cell>
+        <cell>for all <m>x</m></cell>
+        <cell>
+          Something is true for all (any) value of <m>x</m> (usually with a side
+          condition like <m>\forall x&gt;0</m> ).
+        </cell>
+      </row>
+      <row>
+        <cell><m>\exists</m></cell>
+        <cell>there exists</cell>
+        <cell>Used in proofs and definitions as a shorthand.</cell>
+      </row>
+      <row>
+        <cell><m>\exists!</m></cell>
+        <cell>there exists a unique</cell>
+        <cell>Used in proofs and definitions as a shorthand.</cell>
+      </row>
+      <row>
+        <cell><m>f\circ g</m></cell>
+        <cell>
+          <m>f</m> composed with <m>g</m> or <m>f</m> <nbsp/> of <nbsp/> <m>g</m>
+        </cell>
+        <cell>Denotes <m>f(g(\cdot))</m>.</cell>
+      </row>
+      <row>
+        <cell><m>n!</m></cell>
+        <cell><m>n</m> factorial</cell>
+        <cell><m>n!=n(n-1)(n-2)\cdots \times 2 \times 1</m>.</cell>
+      </row>
+      <row>
+        <cell><m>\lfloor x \rfloor</m></cell>
+        <cell>the floor of <m>x</m></cell>
+        <cell>The nearest integer <m>\le x</m>.</cell>
+      </row>
+      <row>
+        <cell><m>\lceil x \rceil</m></cell>
+        <cell>the ceiling of <m>x</m></cell>
+        <cell>The nearest integer <m>\ge x</m>.</cell>
+      </row>
+      <row>
+        <cell><m>f={\cal O}(g)</m> or <m>f=O(g)</m></cell>
+        <cell><m>f</m> is big oh of <m>g</m></cell>
+        <cell>
+          <m>\lim_{x\rightarrow\infty}\sup_{y&gt;x}|f(y)/g(y)|&lt;\infty</m>.
+          Sometimes the limit is toward <m>0</m> or another point.
+        </cell>
+      </row>
+      <row>
+        <cell><m>f=o(g)</m></cell>
+        <cell><m>f</m> is little oh of <m>g</m></cell>
+        <cell><m>\lim_{x\rightarrow\infty}\sup_{y&gt;x}|f(y)/g(y)|=0</m>.</cell>
+      </row>
+      <row>
+        <cell><m>x\rightarrow a^{+}</m></cell>
+        <cell><m>x</m> goes to <m>a</m> from the right</cell>
+        <cell>
+          <m>x</m> is approaching <m>a</m>, but <m>x</m> is always greater than
+          <m>a</m>. Similar for <m>x\rightarrow a^{-}</m>.
+        </cell>
+      </row>
+    </tabular>
+  </introduction>
+  <subsection>
+    <title>The Trouble with <m>=</m></title>
+    <p>
+      The most commonly used, and most commonly misused, symbol is
+      <sq><m>=</m></sq>. The <sq><m>=</m></sq> symbol means that the things on
+      either side are actually the same, just written a different way. The
+      common misuse of <sq><m>=</m></sq> is to mean 'do something'. For example,
+      when asked to compute <m>(3+5)/2</m>, some people will write:
+      <remark>
+        <p>
+          <md>
+            3+5=8/2=4
+          </md>.
+        </p>
+      </remark>
+      This claims that <m>3+5=4</m>, which is false. We can fix this by carrying
+      the <sq><m>/2</m></sq> along, as in <m>(3+5)/2=8/2=4</m>. We could instead
+      use the ' <m>\Rightarrow</m> ' symbol, meaning 'implies', and turn it into
+      a logical statement:
+      <note>
+        <p>
+          <md>  
+            3+5=8\quad \Rightarrow \quad (3+5)/2=4
+          </md>.
+        </p>
+      </note>
+    </p>
+  </subsection>
+  <subsection>
+    <title>To Symbol or not to Symbol?</title>
+    <remark>
+      <p>
+        <m>\lim_{x \rightarrow x_0}f(x)=L</m> means that <m>\forall \epsilon &gt;0</m>,  <m>\exists \delta &gt;0</m> s.t. <m>\forall x</m>,
+        <md>
+          0 &lt; |x -x_{0}|&lt; \delta\quad \Rightarrow\quad |f(x)-L|&lt;\epsilon
+        </md>.          
+      </p>
+    </remark>
+    <p>
+      Although this statement is correct mathematically, it is difficult to read    (unless you are well-versed in math-speak). This example shows that although you can write math in all symbols as a shortcut, often it is clearer to use words. A compromise is often preferred.
+    </p>
+    <note>
+      <title>The Formal Definition of a Limit</title>        
+      <p>
+        Let <m>f(x)</m> be defined on an open interval about <m>x_{0}</m>, except possibly at <m>x_{0}</m> itself. We say that <m>f(x)</m> approaches the limit    <m>L</m> as <m>x</m> approaches <m>x_{0}</m>, and we write
+        <md>
+          \lim_{x \rightarrow x_0}f(x)=L
+        </md>
+        if for every number <m>\epsilon&gt;0</m>, there exists a corresponding number    <m>\delta&gt;0</m> such that for all <m>x</m> we have
+        <md>
+          0 &lt; |x -x_{0}|&lt; \delta \Longrightarrow |f(x)-L|&lt;\epsilon
+        </md>.
+      </p>
+    </note>
+  </subsection>
+  <subsection>
+    <title>Other Examples</title>
+    <p>
+      The <sq><m>\Rightarrow</m></sq> symbol should be used even when doing
+      simple algebra.
+    </p>
+    <note>
+      <md>
+      (y-0)=2(x-1) \quad \Longrightarrow \quad y=2x-2
+      </md>
+    </note>
+    <p>
+      You will be more comfortable with symbols, and better able to use them, if you connect them with their spoken form and their meaning.
+    </p>
+    <note>
+      <p>
+        The mathematical notation <m>(f \circ g)(x)</m> is read <q><m>f</m> composed with <m>g</m> at the point <m>x</m></q> or <q><m>f</m> of <m>g</m> of <m>x</m></q> and means
+        <md>
+          f(g(x))
+        </md>.
+      </p>
+    </note>
+  </subsection>
+</section>
