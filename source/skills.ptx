@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="sec-layout">
-  <title>Laying out the Problem</title>
+  <title>Skill: Laying out the Problem</title>
   <p>
     Presentation is very important in mathematics, just as it is in other
     fields. The main reason for this is clarity. Good presentation allows you to
@@ -187,20 +187,7 @@
       </md>.
     </p>
     <p>
-      From this we can conclude
-      <ellipsis/>
-      blah
-      <ellipsis/>
-      blah
-      <ellipsis/>
-      blah
-      <ellipsis/>
-      blah and so
-      <m>
-        x=3\pi\ldots
-      </m>
-      <ellipsis/>
-      blah.  
+      From this we can conclude   <ellipsis/>      blah      <ellipsis/>      blah      <ellipsis/> blah      <ellipsis/> blah and so  <m>x=3\pi\ldots</m>   <ellipsis/>   blah.  
       <aside>
         <p>
           There is a separate handout on incorporating mathematics into sentences and other issues of flow.
@@ -216,12 +203,17 @@
       </aside>
     </p>  
     <figure xml:id="fig-layout">
-      <caption>The function <ellipsis/> blah. FIX IMAGE</caption>
-      <image xml:id="tikz-fig-layout" width="40%">
-        <description>A 5-cycle</description>
-        <latex-image> \begin{tikzpicture} \coordinate (A) at (90+360/5:12); \coordinate (B) at (90+2*360/5:1); \coordinate (C) at (90+3*360/5:1); \coordinate (D) at (90+4*360/5:1); \coordinate (E) at (90:1); \draw (A) -- (B) -- (C) -- (D) -- (E) -- (A); \foreach \x in {(A), (B), (C), (D), (E)}{ \fill \x circle (2pt); } \end{tikzpicture} </latex-image>
+      <caption>The function <ellipsis/> blah.</caption>
+      <image xml:id="tikz-fig-layout" width="50%">
+        <shortdescription>Placeholder for a graph.</shortdescription>
+        <latex-image> 
+          \begin{tikzpicture} 
+          \path[draw,->] (-3,0)--(3,0) node[anchor=north]{$x$};
+          \path[draw,->] (0,-2)--(0,2) node[anchor=east]{$y$};
+          \end{tikzpicture} 
+        </latex-image>
       </image>
-    </figure>>
+    </figure>
     <p>  
       By using
       <ellipsis/>

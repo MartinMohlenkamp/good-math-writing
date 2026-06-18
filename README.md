@@ -2,7 +2,7 @@
 
 ... a resource for teaching Mathematical writing at the college level
 
-See [the posted html version](https://data-ohio.github.io/good-math-writing/)
+See [the posted html version](https://martinmohlenkamp.github.io/good-math-writing/good-math-writing.html)
 
 ## Collaborator Instructions
 

@@ -6,7 +6,10 @@
     <document-id>mohlenkamp-GoodMathWriting</document-id>
 
     <macros>\newcommand{\foo}{b^{ar}}</macros>
-    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+    <latex-image-preamble>
+      \usepackage{tikz,pgfplots}
+      \usetikzlibrary{calc}
+    </latex-image-preamble>
     <rename element="note" xml:lang="en-US">Good Example</rename>
     <rename element="remark" xml:lang="en-US">Poor Example</rename>
   </docinfo>

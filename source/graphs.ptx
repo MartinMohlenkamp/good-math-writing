@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="sec-graphs"> 
-  <title>Graphs</title>
+  <title>Skill: Graphs</title>
   <introduction>
     <p>
       Graphs are an important visual aid in mathematics and it is important to learn how to draw them properly. For a graph to be useful it must display the important and interesting information about a function and have all relevant points clearly labeled.
@@ -15,7 +15,7 @@
         </li>
         <li>
           <p>
-            Have I put a title on the graph and labeled the axes?
+            Have I put a title or caption on the graph and labeled the axes?
           </p>
         </li>
         <li>
@@ -45,27 +45,53 @@
       Graph the curve <m>y= x^{3} - 4x</m>.
     </p>
     <note>
-      <p>
-        FILL 
-      </p>
-      <p>
-        The curve <m>y=x^{3}-4x</m>.
-      </p>
       <aside>
         <p>
           The curve, axes, extreme points, and <m>x</m>- and <m>y</m>-intercepts are clearly labeled. These are the <em>points of interest</em> for this function.
         </p>
       </aside>
+      <figure xml:id="fig-graphs-good">
+        <caption>The curve <m>y=x^{3}-4x</m>.</caption>
+        <image xml:id="tikz-fig-graphs-good" width="80%">
+          <shortdescription>Well-done graph of y=x^3-4x.</shortdescription>
+          <latex-image> 
+            \begin{tikzpicture}[yscale=0.5] 
+            \path[draw,->] (-5,0)--(5,0) node[anchor=north]{$x$};
+            \foreach \x in {-4,-3,-2,-1,1,2,3,4} \path[draw] (\x,-.1) node[anchor=north] {\x}-- (\x,0.1);
+            \path[draw,->] (0,-8)--(0,8) node[anchor=east]{$y$};
+            \foreach \y in {-7,-6,...,7} \path[draw] (-.1,\y)-- +(0.2,0);
+            \node[anchor=east] at (-0.1,-5) {-5};
+            \node[anchor=east] at (-0.1,5) {5};
+            \draw[color=red]    plot[domain=-2.6:2.6] (\x,{(pow(\x,3)-4*\x)});
+            \draw[fill,blue] (-2,0) circle(0.1) node[anchor=south east]{$(-2,0)$};
+            \draw[fill,blue] (0,0) circle(0.1) node[anchor=south west]{$(0,0)$};
+            \draw[fill,blue] (2,0) circle(0.1) node[anchor=south west]{$(2,0)$};
+            \draw[fill,blue] ({-2/sqrt(3)},{16/(3*sqrt(3))}) circle(0.1) node[anchor=south east]{$(\frac{-2}{\sqrt{3}},\frac{16}{3\sqrt{3}})$};
+            \draw[fill,blue] ({2/sqrt(3)},{-16/(3*sqrt(3))}) circle(0.1) node[anchor=north west]{$(\frac{2}{\sqrt{3}},\frac{-16}{3\sqrt{3}})$};
+            \end{tikzpicture} 
+          </latex-image>
+        </image>
+      </figure>
     </note>
     <remark>
-      <p>
-        FILL
-      </p>
       <aside>
         <p>
           Although this second solution has labeled axes, the graph has no title so it is not clear to someone else what they are viewing. There are also no labels on the extreme points or intercepts and no scale is given on the <m>y</m>-axis. Although this is a bad example of a solution to this question it would be sufficient if only a rough sketch was required.
         </p>
       </aside>
+      <figure xml:id="fig-graphs-bad">
+        <image xml:id="tikz-fig-graphs-bad" width="100%">
+          <shortdescription>Poorly-done graph of y=x^3-4x.</shortdescription>
+          <latex-image> 
+            \begin{tikzpicture}[yscale=0.5] 
+            \path[draw,->] (-5,0)--(5,0) node[anchor=north]{$x$};
+            \foreach \x in {-4,-3,-2,-1,1,2,3,4} \path[draw] (\x,-.1) node[anchor=north] {\x}-- (\x,0.1);
+            \path[draw,->] (0,-8)--(0,8) node[anchor=east]{$y$};
+            \draw[color=red]    plot[domain=-2.6:2.6] (\x,{(pow(\x,3)-4*\x)});
+            \end{tikzpicture} 
+          </latex-image>
+        </image>
+      </figure>
     </remark>
     <p>
       Choose a suitable scale so that all of the interesting features of the graph are included. For example, when graphing our function
@@ -75,14 +101,43 @@
       a suitable scale meant including all of the extreme points and <m>x</m>- and <m>y</m>-intercepts. Be especially careful about the scale when using a graphing calculator or computer. They do not have any idea which points are interesting, so they will often give inappropriate scales. The following graphs give examples of bad choices of scale for our problem.
     </p>
     <remark>
-      <p>
-        FILL
-      </p>
       <aside>
         <p>
-          The graph on the left uses too large a scale so the extreme points are hard to see and will be difficult to label. The scale used for the graph on the right is too small as it fails to include two of the <m>x</m>x-intercepts.
+          The graph on the left uses too large a scale so the extreme points are hard to see and will be difficult to label. The scale used for the graph on the right is too small as it fails to include two of the <m>x</m>-intercepts.
         </p>
       </aside>
+      <figure xml:id="fig-graphs-scale">
+        <sidebyside>
+          <image xml:id="tikz-fig-graphs-big">
+          <shortdescription>Poorly-scaled (zoomed out) graph of y=x^3-4x.</shortdescription>
+          <latex-image> 
+            \begin{tikzpicture}[yscale=0.5] 
+              \path[draw,->] (-5,0)--(5,0) node[anchor=north]{$x$};
+              \path[draw] (-4,-.1) node[anchor=north] {-40} -- (-4,0.1);
+              \path[draw] (4,-.1) node[anchor=north] {40} -- (4,0.1);
+              \path[draw,->] (0,-8)--(0,8) node[anchor=east]{$y$};
+              \path[draw] (-.1,-6) node[anchor=east] {-60000} -- (0.1,-6);
+              \path[draw] (-.1,6) node[anchor=east] {60000} -- (0.1,6);
+              \draw[color=red]    plot[domain=-4:4] (\x,{(0.1*pow(\x,3)-0.0004*\x)});
+            \end{tikzpicture} 
+          </latex-image>
+        </image>
+        <image xml:id="tikz-fig-graphs-small">
+          <shortdescription>Poorly-scaled (zoomed in) graph of y=x^3-4x.</shortdescription>
+          <latex-image> 
+            \begin{tikzpicture}[yscale=0.5] 
+		\path[draw,->] (-1.5,0)--(1.5,0) node[anchor=north]{$x$};
+		\path[draw] (-1,-.1) node[anchor=north] {-1} -- (-1,0.1);
+		\path[draw] (1,-.1) node[anchor=north] {1} -- (1,0.1);
+		\path[draw,->] (0,-3)--(0,3) node[anchor=east]{$y$};
+		\path[draw] (-.1,-2) node[anchor=east] {-2} -- (0.1,-2);
+		\path[draw] (-.1,2) node[anchor=east] {2} -- (0.1,2);
+		\draw[color=red]    plot[domain=-1:1] (\x,{(pow(\x,3)-4*\x)});
+	\end{tikzpicture} 
+          </latex-image>
+        </image>
+        </sidebyside>
+      </figure>
     </remark>
     <p>
       Also make sure that what you are graphing makes sense. If you are drawing the graph of a function that represents the distance of a space shuttle from the surface of the earth against time, it makes no sense to include negative distances, as this is unphysical. Similar reasoning applies to graphs representing populations, areas, and volumes.

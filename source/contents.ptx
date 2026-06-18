@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="sec-contents">
-<title>How to Use This Packet</title>
-<p>
-    This packet contains all the materials necessary to implement the good
-    problems program. The items included are:
-    <ul>
-    <li>
+  <title>How to Use This Packet</title>
+  <p>
+    This document contains all the materials necessary to implement the good problems program. The items included are:
+    <dl>
+      <li>
+        <title>The Instructor's Guide</title>
         <p>
-        The Instructor's Guide. This guide is for the main instructor, meaning the person in charge of organizing the course. It lists those tasks that the instructor must perform to implement this scheme, indicates when they must be performed, and estimates how much time they are expected to take. If there is more than one instructor, then several of these tasks can be shared.
-        </p>
-    </li>
-    <li>
-        <p>
-        The Teaching Assistant's Guide. This guide is for the teaching assistant, who runs the recitations. It lists those tasks that the teaching assistant must perform, indicates when they must be performed, and estimates the time required. If the course is taught without recitations, then these tasks fall on the instructor.
-        </p>
-    </li>
-    <li>
-        <p>
-        The Student's Guide. This guide explains the method to the students, and tells them what is expected from them. When this program is implemented, this guide could be one side of a sheet of paper and the schedule of good problems for the course photocopied onto the back.
-        </p>
-    </li>
-    <li>
-        <p>
-        The Handouts. The main material for this method is a set of six handouts. Each handout is two pages long, so that it can be copied double-sided onto a single sheet of paper. The handout consists of a description of a particular writing skill, motivation for the importance of this skill, whatever explicit rules can be given, and examples of good and bad presentation emphasizing that skill. It is hoped that the students will find these handouts useful enough that they will keep them for future reference.
-        </p>
-        <p>
+            This guide is for the main instructor, meaning the person in charge of organizing the course. It lists those tasks that the instructor must perform to implement this scheme, indicates when they must be performed, and estimates how much time they are expected to take. If there is more than one instructor, then several of these tasks can be shared.
+          </p>
+        </li>
+        <li>
+            <title>The Teaching Assistant's Guide</title>            
+            <p>
+          This guide is for the teaching assistant, who runs the recitations. It lists those tasks that the teaching assistant must perform, indicates when they must be performed, and estimates the time required. If the course is taught without recitations, then these tasks fall on the instructor.      
+            </p>
+        </li>
+        <li>
+            <title>The Student's Guide</title>            
+            <p>
+               This guide explains the method to the students, and tells them what is expected from them. 
+            </p>
+        </li>
+        <li>
+            <title>The Skills <q>Handouts</q></title>            
+            <p>
+                The main material for this method is a set of six skills pages, or virtual handouts. The handout consists of a description of a particular writing skill, motivation for the importance of this skill, whatever explicit rules can be given, and examples of good and bad presentation emphasizing that skill. It is hoped that the students will find these handouts useful enough that they will keep them for future reference.
+                In the print version, each handout was two pages long, so that it can be copied double-sided onto a single sheet of paper. Although this is irrelevent online, we have resisted lengthing the description to avoid mission creep. 
+            </p>
+            <p>
         The handouts could be used in any order, but we suggest the following sequence: 
         <ol>
             <li>
@@ -59,7 +63,7 @@
             </li>
         </ol>
         </p>
-    </li>
-    </ul>
+        </li>
+    </dl>        
 </p>
 </section>
