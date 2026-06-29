@@ -36,7 +36,7 @@
       </ul>
     </p>
     <p>
-      You can often determine how much detail to include in your graph from the question. For example, if you are finding the extreme points of a function, then you will probably be expected to label these points on your graph. If you are only sketching the graph of a function then less detail is required. The main purpose of a sketch is to get some idea of the general shape and behavior of the function. In this case, it is not usually necessary to label extreme points and intercepts. However, you should always remember to label your axes and put a title on your graph, even if it is only a sketch. Use a ruler if necessary to draw straight lines. If you are drawing more than one curve on the same set of axes, take particular care to make sure that each curve is clearly labeled.
+      You can often determine how much detail to include in your graph from the question. For example, if you are finding the extreme points of a function, then you will probably be expected to label these points on your graph. If you are only sketching the graph of a function, then less detail is required. The main purpose of a sketch is to get some idea of the general shape and behavior of the function. In this case, it is not usually necessary to label extreme points and intercepts. However, you should always remember to label your axes and put a title or caption on your graph, even if it is only a sketch. Use a ruler if necessary to draw straight lines. If you are drawing more than one curve on the same set of axes, take particular care to make sure that each curve is clearly labeled.
     </p>
   </introduction>
   <subsection>
@@ -76,7 +76,7 @@
     <remark>
       <aside>
         <p>
-          Although this second solution has labeled axes, the graph has no title so it is not clear to someone else what they are viewing. There are also no labels on the extreme points or intercepts and no scale is given on the <m>y</m>-axis. Although this is a bad example of a solution to this question it would be sufficient if only a rough sketch was required.
+          Although this second solution has labeled axes, the graph has no title so it is not clear to someone else what they are viewing. There are also no labels on the extreme points or intercepts and no scale is given on the <m>y</m>-axis. Although this is a bad example of a solution to this question it would be sufficient if only a rough sketch of the shape was required.
         </p>
       </aside>
       <figure xml:id="fig-graphs-bad">
@@ -140,7 +140,7 @@
       </figure>
     </remark>
     <p>
-      Also make sure that what you are graphing makes sense. If you are drawing the graph of a function that represents the distance of a space shuttle from the surface of the earth against time, it makes no sense to include negative distances, as this is unphysical. Similar reasoning applies to graphs representing populations, areas, and volumes.
+      Also make sure that what you are graphing makes sense. If you are drawing the graph of a function that represents the distance of a rocket from the surface of the earth against time, it makes no sense to include negative distances, as this is unphysical. Similar reasoning applies to graphs representing populations, areas, and volumes.
     </p>
     <p>
       Finally, being able to draw and sketch graphs well can sometimes help while trying to answer a question, even if a graph is not required in the solution. For more difficult problems in particular, being able to sketch a function to identify its behavior often provides more insight than looking at the equation alone.

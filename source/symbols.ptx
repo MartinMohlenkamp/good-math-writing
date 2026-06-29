@@ -3,7 +3,7 @@
   <title>Skill: Mathematical Symbols</title>
   <introduction>
     <p>
-      You will encounter many mathematical symbols during your math courses. The table below provides you with a list of the more common symbols, how to read them, and notes on their meaning and usage. The following page has a series of examples of these symbols in use.
+      You will encounter many mathematical symbols during your math courses. The table below provides you with a list of the more common symbols, how to read them, and notes on their meaning and usage.
     </p>
     <tabular>
       <row header="yes" bottom="minor">
@@ -238,7 +238,7 @@
         </md>
         if for every number <m>\epsilon&gt;0</m>, there exists a corresponding number    <m>\delta&gt;0</m> such that for all <m>x</m> we have
         <md>
-          0 &lt; |x -x_{0}|&lt; \delta \Longrightarrow |f(x)-L|&lt;\epsilon
+          0 &lt; |x -x_{0}|&lt; \delta \quad\Rightarrow\quad |f(x)-L|&lt;\epsilon
         </md>.
       </p>
     </note>
@@ -251,7 +251,7 @@
     </p>
     <note>
       <md>
-      (y-0)=2(x-1) \quad \Longrightarrow \quad y=2x-2
+      (y-0)=2(x-1) \quad \Rightarrow \quad y=2x-2
       </md>
     </note>
     <p>

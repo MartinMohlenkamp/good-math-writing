@@ -23,11 +23,7 @@
     correctness, but with emphasis on presentation.
 </p>
 <p>
-    During the term you will receive six handouts, each addressing a particular
-    writing skill. The good problem is graded only on those skills already
-    covered, with greater emphasis on the newest skill. By the end of the term
-    you will have acquired the basic skills of mathematical writing. The
-    handouts are:
+    During the term you will receive six <q>handouts</q> (links to skills pages), each addressing a particular writing skill. The good problem is graded only on those skills already covered, with greater emphasis on the newest skill. By the end of the term you will have acquired the basic skills of mathematical writing. The handouts are:
     <ul>
     <li>
         <p>
@@ -67,7 +63,7 @@
 </p>    
 <note>
     <p>
-    An example of good writing looks like this. 
+    An example of good writing looks like this, with the label <alert>Good</alert>. 
     <aside>
         <p>
         A comment within an example looks like this.  
@@ -77,7 +73,7 @@
 </note>
 <remark>
     <p>
-    An example of poor writing looks like this.  
+    An example of poor writing looks like this, with the label <alert>Poor</alert>.  
     </p>
 </remark>
 <p>
